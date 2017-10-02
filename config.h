@@ -1,2 +1,16 @@
-#define SETUP_API_ID(apiId) apiId = 150217;
-#define SETUP_API_HASH(apiHash) apiHash = @"1b93fa0d76c9126dab4efdc8823679c4";
+//
+//  config.h
+//  Telegraph
+//
+//  Created by Dmitry Virych on 2017-04-08.
+//
+//
+
+#ifndef config_h
+#define config_h
+
+#define SETUP_API_ID(v) v = 43058;
+#define SETUP_API_HASH(v) v = @"1f4ab41522ddeef0f9a2a9e0095fcf38";
+
+#endif /* config_h */
+

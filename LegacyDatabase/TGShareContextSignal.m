@@ -139,7 +139,7 @@ static void TGShareLoggingFunction(NSString *format, va_list args)
                         int32_t apiId = 0;
                         SETUP_API_ID(apiId)
                         
-                        if ([bundleIdentifier hasPrefix:@"org.telegram.TelegramEnterprise"])
+                        if ([bundleIdentifier hasPrefix:@"org.cloudveil.CloudVeilMessenger"])
                             apiEnvironment.apiId = 16352;
                         else
                             apiEnvironment.apiId = 1;
