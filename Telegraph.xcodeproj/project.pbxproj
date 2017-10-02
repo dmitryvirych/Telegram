@@ -1607,6 +1607,8 @@
 		68F7D3C61CADF1FB00265D0A /* TGPreviewWebPageItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F7D3C41CADF1FB00265D0A /* TGPreviewWebPageItemView.m */; };
 		68F9A7761D89E65C00BCBE31 /* CameraLargeFlipButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F9A7751D89E65C00BCBE31 /* CameraLargeFlipButton@2x.png */; };
 		69F8429F1E67589900C110F7 /* libtgvoip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F8429E1E67589900C110F7 /* libtgvoip.framework */; };
+		7276C03F1F82984F002B2D12 /* URLOpener.h in Headers */ = {isa = PBXBuildFile; fileRef = 7276C03D1F82984D002B2D12 /* URLOpener.h */; };
+		7276C0401F82984F002B2D12 /* URLOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = 7276C03E1F82984E002B2D12 /* URLOpener.m */; };
 		9302CA2F171B581200C8559D /* VideoSliderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9302CA2A171B581200C8559D /* VideoSliderBackground@2x.png */; };
 		9302CA31171B581200C8559D /* VideoSliderForeground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9302CA2C171B581200C8559D /* VideoSliderForeground@2x.png */; };
 		9302CA33171B581200C8559D /* VideoSliderHandle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9302CA2E171B581200C8559D /* VideoSliderHandle@2x.png */; };
@@ -7736,6 +7738,8 @@
 		68F9A7751D89E65C00BCBE31 /* CameraLargeFlipButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CameraLargeFlipButton@2x.png"; path = "Resources/Camera/CameraLargeFlipButton@2x.png"; sourceTree = "<group>"; };
 		69F842411E67546900C110F7 /* libtgvoip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libtgvoip.xcodeproj; path = ../submodules/libtgvoip/libtgvoip.xcodeproj; sourceTree = "<group>"; };
 		69F8429E1E67589900C110F7 /* libtgvoip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtgvoip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7276C03D1F82984D002B2D12 /* URLOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLOpener.h; sourceTree = "<group>"; };
+		7276C03E1F82984E002B2D12 /* URLOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLOpener.m; sourceTree = "<group>"; };
 		9302CA2A171B581200C8559D /* VideoSliderBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoSliderBackground@2x.png"; path = "Resources/VideoSliderBackground@2x.png"; sourceTree = "<group>"; };
 		9302CA2C171B581200C8559D /* VideoSliderForeground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoSliderForeground@2x.png"; path = "Resources/VideoSliderForeground@2x.png"; sourceTree = "<group>"; };
 		9302CA2E171B581200C8559D /* VideoSliderHandle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VideoSliderHandle@2x.png"; path = "Resources/VideoSliderHandle@2x.png"; sourceTree = "<group>"; };
@@ -20667,6 +20671,8 @@
 		D08805B7156E8F3600311537 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7276C03D1F82984D002B2D12 /* URLOpener.h */,
+				7276C03E1F82984E002B2D12 /* URLOpener.m */,
 				9351565D18686E9D00621293 /* Localization */,
 				D08805B8156E8F3600311537 /* Telegraph-Info.plist */,
 				D08805BC156E8F3600311537 /* main.m */,
@@ -24105,6 +24111,7 @@
 				D0249ABA1ABCA73F0076ECBF /* TGLocationMapModeControl.h in Headers */,
 				D0F680071EE70227000E5906 /* TGModernConversationRestrictedInputPanel.h in Headers */,
 				D0DCF58A1AEDCE2300D5B7A1 /* TGGroupInfoShareLinkLinkItemView.h in Headers */,
+				7276C03F1F82984F002B2D12 /* URLOpener.h in Headers */,
 				D08C712D1C4D186D00779C0F /* TGNetworkOverridesController.h in Headers */,
 				D053B1D71F1509EA00E2D58A /* TLPostAddress.h in Headers */,
 				D053B3171F1509ED00E2D58A /* TLRPCmessages_getStickerSet.h in Headers */,
@@ -29440,6 +29447,7 @@
 				D0CB14AB199DF1E900EBCEA7 /* TGUpdateMediaHistoryActor.m in Sources */,
 				D093D8121BE27B0000B24A14 /* TGMessageEntityBotCommand.m in Sources */,
 				D06BE8561B8F4BCF00F394CF /* TGHoleMessageViewModel.m in Sources */,
+				7276C0401F82984F002B2D12 /* URLOpener.m in Sources */,
 				930F9BC21891B7CB00D3D7C1 /* TGMessageImageView.m in Sources */,
 				D01D7D6719DEE85900955BDE /* TGModernConversationTitleActivityIndicator.m in Sources */,
 				93C1AF6216C4641A00710640 /* TGSynchronizeContactsActor.mm in Sources */,

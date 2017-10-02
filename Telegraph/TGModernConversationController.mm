@@ -262,6 +262,9 @@
 #import "TGSecretPeerMediaGalleryImageItem.h"
 #import "TGSecretPeerMediaGalleryVideoItem.h"
 
+#import "URLOpener.h"
+
+
 #if TARGET_IPHONE_SIMULATOR
 NSInteger TGModernConversationControllerUnloadHistoryLimit = 500;
 NSInteger TGModernConversationControllerUnloadHistoryThreshold = 200;
@@ -4638,7 +4641,14 @@ typedef enum {
 
 - (void)openBrowserFromMessage:(int32_t)__unused messageId url:(NSString *)url
 {
-    [(TGApplication *)[TGApplication sharedApplication] openURL:[NSURL URLWithString:url] forceNative:true];
+    // this method calls from popup menu
+ 
+    //[(TGApplication *)[TGApplication sharedApplication] openURL:[NSURL URLWithString:url] forceNative:true];
+    
+    NSString * userAgent = BROWSER_ICAB;
+    URLOpener * opener = [[URLOpener alloc] initWithURLString:url browser:userAgent];
+    [opener openURL];
+
 }
 
 - (void)showActionsMenuForUnsentMessage:(int32_t)messageId
@@ -5108,8 +5118,7 @@ typedef enum {
         {
             if ([action isEqualToString:@"open"])
             {
-                // remove in-app browser
-                // [controller openBrowserFromMessage:0 url:url];
+                 [controller openBrowserFromMessage:0 url:url];
             }
             else if ([action isEqualToString:@"openIn"])
             {
@@ -10549,7 +10558,7 @@ static UIView *_findBackArrow(UIView *view)
 //                            if (url != nil && [[url.scheme lowercaseString] hasPrefix:@"http"]) {
 //                                if (_inputTextPanel.isActive)
 //                                    _collectionViewIgnoresNextKeyboardHeightChange = true;
-//                                
+//
 //                                SFSafariViewController *controller = [[SFSafariViewController alloc] initWithURL:url];
 //                                return controller;
 //                            }
