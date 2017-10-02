@@ -6659,7 +6659,7 @@ typedef enum {
     
     if (!TGStringCompare(_currentLinkParseLink, link))
     {
-        _disableLinkPreviewsForMessage = false;
+        _disableLinkPreviewsForMessage = true;
         if (link.length == 0)
         {
             _currentLinkParseLink = link;
@@ -6699,27 +6699,27 @@ typedef enum {
                     }
                     else
                     {
-                        TGModernConversationWebPreviewInputPanel *panel = nil;
-                        if ([[strongSelf->_inputTextPanel secondaryExtendedPanel] isKindOfClass:[TGModernConversationWebPreviewInputPanel class]])
-                        {
-                            panel = (TGModernConversationWebPreviewInputPanel *)[strongSelf->_inputTextPanel secondaryExtendedPanel];
-                        }
-                        else
-                        {
-                            panel = [[TGModernConversationWebPreviewInputPanel alloc] init];
-                            panel.dismiss = ^
-                            {
-                                __strong TGModernConversationController *strongSelf = weakSelf;
-                                if (strongSelf != nil)
-                                {
-                                    [strongSelf->_inputTextPanel setSecondaryExtendedPanel:nil animated:true];
-                                    strongSelf->_disableLinkPreviewsForMessage = true;
-                                }
-                            };
-                            [strongSelf->_inputTextPanel setSecondaryExtendedPanel:panel animated:true];
-                        }
-                        
-                        [panel setLink:link webPage:webPage];
+//                        TGModernConversationWebPreviewInputPanel *panel = nil;
+//                        if ([[strongSelf->_inputTextPanel secondaryExtendedPanel] isKindOfClass:[TGModernConversationWebPreviewInputPanel class]])
+//                        {
+//                            panel = (TGModernConversationWebPreviewInputPanel *)[strongSelf->_inputTextPanel secondaryExtendedPanel];
+//                        }
+//                        else
+//                        {
+//                            panel = [[TGModernConversationWebPreviewInputPanel alloc] init];
+//                            panel.dismiss = ^
+//                            {
+//                                __strong TGModernConversationController *strongSelf = weakSelf;
+//                                if (strongSelf != nil)
+//                                {
+//                                    [strongSelf->_inputTextPanel setSecondaryExtendedPanel:nil animated:true];
+//                                    strongSelf->_disableLinkPreviewsForMessage = true;
+//                                }
+//                            };
+//                            [strongSelf->_inputTextPanel setSecondaryExtendedPanel:panel animated:true];
+//                        }
+//
+//                        [panel setLink:link webPage:webPage];
                     }
                 }
             }]];
@@ -6817,10 +6817,10 @@ typedef enum {
                 [strongSelf endMessageEditing:true];
             }
         }]];
-        _disableLinkPreviewsForMessage = false;
+        _disableLinkPreviewsForMessage = true;
     } else {
         [_companion controllerWantsToSendTextMessage:text entities:entities asReplyToMessageId:[self currentReplyMessageId] withAttachedMessages:[self currentForwardMessages] disableLinkPreviews:_disableLinkPreviewsForMessage botContextResult:nil botReplyMarkup:nil];
-        _disableLinkPreviewsForMessage = false;
+        _disableLinkPreviewsForMessage = true;
     }
 }
 
@@ -10542,17 +10542,17 @@ static UIView *_findBackArrow(UIView *view)
                         previewingContext.sourceRect = CGRectMake(location.x, location.y, 1.0f, 1.0f);
                         
                         if ([[link lowercaseString] hasPrefix:@"http://"] || [[link lowercaseString] hasPrefix:@"https://"] || [link rangeOfString:@"://"].location == NSNotFound) {
-                            NSURL *url = nil;
-                            @try {
-                                 url = [NSURL URLWithString:link];
-                            } @catch (NSException *e) {}
-                            if (url != nil && [[url.scheme lowercaseString] hasPrefix:@"http"]) {
-                                if (_inputTextPanel.isActive)
-                                    _collectionViewIgnoresNextKeyboardHeightChange = true;
-                                
-                                SFSafariViewController *controller = [[SFSafariViewController alloc] initWithURL:url];
-                                return controller;
-                            }
+//                            NSURL *url = nil;
+//                            @try {
+//                                 url = [NSURL URLWithString:link];
+//                            } @catch (NSException *e) {}
+//                            if (url != nil && [[url.scheme lowercaseString] hasPrefix:@"http"]) {
+//                                if (_inputTextPanel.isActive)
+//                                    _collectionViewIgnoresNextKeyboardHeightChange = true;
+//                                
+//                                SFSafariViewController *controller = [[SFSafariViewController alloc] initWithURL:url];
+//                                return controller;
+//                            }
                         }
                     }
                     else if ([(TGMessageViewModel *)item.viewModel isPreviewableAtPoint:[_collectionView convertPoint:collectionPoint toView:[cell contentViewForBinding]]])
