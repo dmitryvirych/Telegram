@@ -13,7 +13,7 @@
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.cloudveil.CloudVeilMessenger.Share</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -31,23 +31,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>NSExtensionActivationRule</key>
-			<string>SUBQUERY (
-    extensionItems,
-    $extensionItem,
-    SUBQUERY (
-        $extensionItem.attachments,
-        $attachment,
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.file-url" ||
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie" ||
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
-		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
-		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.text" ||
-		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.audio" ||
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" ||
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.vcard" ||
-        ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.apple.pkpass"
-    ).@count == $extensionItem.attachments.@count
-).@count &gt; 0</string>
+			<string>TRUEPREDICATE</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.share-services</string>

@@ -9,8 +9,8 @@
 #ifndef config_h
 #define config_h
 
-#define SETUP_API_ID(v) v = 150217;
-#define SETUP_API_HASH(v) v = @"1b93fa0d76c9126dab4efdc8823679c4";
+#define SETUP_API_ID(v) v = 150211;
+#define SETUP_API_HASH(v) v = @"24cc1afc4d8370058fbfde1aaa4b1ab8";
 
 #endif /* config_h */
 
