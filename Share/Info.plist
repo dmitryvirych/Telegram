@@ -25,13 +25,29 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>64300</string>
+	<string>64303</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>NSExtensionActivationRule</key>
-			<string>TRUEPREDICATE</string>
+			<string>SUBQUERY (
+                extensionItems,
+                $extensionItem,
+                SUBQUERY (
+                $extensionItem.attachments,
+                $attachment,
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.file-url" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.movie" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.image" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.url" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.text" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.audio" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.vcard" ||
+                ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.apple.pkpass"
+                ).@count == $extensionItem.attachments.@count
+                ).@count &gt; 0</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.share-services</string>
