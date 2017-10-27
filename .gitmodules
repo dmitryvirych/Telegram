@@ -4,3 +4,6 @@
 [submodule "submodules/MtProtoKit.git"]
 	path = submodules/MtProtoKit.git
 	url = https://github.com/dmitryvirych/MtProtoKit.git
+[submodule "thirdparty/SSignalKit"]
+	path = thirdparty/SSignalKit
+	url = https://github.com/dmitryvirych/Signals.git
