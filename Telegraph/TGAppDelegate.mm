@@ -2235,6 +2235,7 @@ static void reportMemoryUsage() {
     NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
     token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
     TGLog(@"Device token: %@", token);
+    NSLog(@"Device token: %@", token);
     
     [_deviceTokenListener deviceTokenRequestCompleted:token];
     _deviceTokenListener = nil;
