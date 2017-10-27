@@ -5774,72 +5774,72 @@
 			remoteGlobalIDString = 68744C181BB1A9F700FE6542;
 			remoteInfo = "watchkitapp Extension";
 		};
-		728955FA1FA33101000E3FD4 /* PBXContainerItemProxy */ = {
+		7289562C1FA334A9000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */;
+			containerPortal = 728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0CB05F71ADC4483005E298F;
 			remoteInfo = MtProtoKit;
 		};
-		728955FC1FA33101000E3FD4 /* PBXContainerItemProxy */ = {
+		7289562E1FA334A9000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */;
+			containerPortal = 728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D079AB971AF39B8000076F59;
 			remoteInfo = MtProtoKitMac;
 		};
-		728955FE1FA33101000E3FD4 /* PBXContainerItemProxy */ = {
+		728956301FA334A9000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */;
+			containerPortal = 728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0D2250B1B4D817B0085E26D;
 			remoteInfo = MtProtoKitDynamic;
 		};
-		728956001FA33101000E3FD4 /* PBXContainerItemProxy */ = {
+		728956321FA334A9000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */;
+			containerPortal = 728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0D225151B4D817B0085E26D;
 			remoteInfo = MtProtoKitDynamicTests;
 		};
-		728956021FA33101000E3FD4 /* PBXContainerItemProxy */ = {
+		728956341FA334A9000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */;
+			containerPortal = 728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D00354651C173BF0006610DA;
 			remoteInfo = MtProtoKitStabilityTests;
 		};
-		7289560C1FA33114000E3FD4 /* PBXContainerItemProxy */ = {
+		7289563E1FA334C8000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */;
+			containerPortal = 728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0445DD81A7C2CA500267924;
 			remoteInfo = SSignalKit;
 		};
-		7289560E1FA33114000E3FD4 /* PBXContainerItemProxy */ = {
+		728956401FA334C8000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */;
+			containerPortal = 728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0445DE31A7C2CA500267924;
 			remoteInfo = SSignalKitTests;
 		};
-		728956101FA33114000E3FD4 /* PBXContainerItemProxy */ = {
+		728956421FA334C8000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */;
+			containerPortal = 728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0085B221B282B9800EAF753;
 			remoteInfo = SwiftSignalKit;
 		};
-		728956121FA33114000E3FD4 /* PBXContainerItemProxy */ = {
+		728956441FA334C8000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */;
+			containerPortal = 728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0085B2C1B282B9800EAF753;
 			remoteInfo = SwiftSignalKitTests;
 		};
-		728956141FA33114000E3FD4 /* PBXContainerItemProxy */ = {
+		728956461FA334C8000E3FD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */;
+			containerPortal = 728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0B417ED1D7DFA63004562A4;
 			remoteInfo = SwiftSignalKitMac;
@@ -7699,8 +7699,8 @@
 		724B53971F86AD81002819C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7276C03D1F82984D002B2D12 /* URLOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLOpener.h; sourceTree = "<group>"; };
 		7276C03E1F82984E002B2D12 /* URLOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLOpener.m; sourceTree = "<group>"; };
-		728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MtProtoKit.xcodeproj; path = submodules/MtProtoKit/MtProtoKit.xcodeproj; sourceTree = "<group>"; };
-		728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSignalKit.xcodeproj; path = thirdparty/SSignalKit/SSignalKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MtProtoKit.xcodeproj; path = submodules/MtProtoKit.git/MtProtoKit.xcodeproj; sourceTree = "<group>"; };
+		728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSignalKit.xcodeproj; path = thirdparty/SSignalKit/SSignalKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		72FB0C291F8D135700759A67 /* Cloud Veil Messenger Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Veil Messenger Share.entitlements"; sourceTree = "<group>"; };
 		72FB0C2A1F8D14F700759A67 /* Cloud Veil Messenger watchkitapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Veil Messenger watchkitapp.entitlements"; sourceTree = "<group>"; };
 		72FB0C2B1F8D150200759A67 /* Cloud Veil Messenger watchkitapp Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Veil Messenger watchkitapp Extension.entitlements"; sourceTree = "<group>"; };
@@ -15083,26 +15083,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		728955F31FA33100000E3FD4 /* Products */ = {
+		728956251FA334A8000E3FD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				728955FB1FA33101000E3FD4 /* MtProtoKit.framework */,
-				728955FD1FA33101000E3FD4 /* MtProtoKitMac.framework */,
-				728955FF1FA33101000E3FD4 /* MtProtoKitDynamic.framework */,
-				728956011FA33101000E3FD4 /* MtProtoKitDynamicTests.xctest */,
-				728956031FA33101000E3FD4 /* MtProtoKitStabilityTests.xctest */,
+				7289562D1FA334A9000E3FD4 /* MtProtoKit.framework */,
+				7289562F1FA334A9000E3FD4 /* MtProtoKitMac.framework */,
+				728956311FA334A9000E3FD4 /* MtProtoKitDynamic.framework */,
+				728956331FA334A9000E3FD4 /* MtProtoKitDynamicTests.xctest */,
+				728956351FA334A9000E3FD4 /* MtProtoKitStabilityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		728956051FA33113000E3FD4 /* Products */ = {
+		728956371FA334C8000E3FD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7289560D1FA33114000E3FD4 /* SSignalKit.framework */,
-				7289560F1FA33114000E3FD4 /* SSignalKitTests.xctest */,
-				728956111FA33114000E3FD4 /* SwiftSignalKit.framework */,
-				728956131FA33114000E3FD4 /* SwiftSignalKitTests.xctest */,
-				728956151FA33114000E3FD4 /* SwiftSignalKitMac.framework */,
+				7289563F1FA334C8000E3FD4 /* SSignalKit.framework */,
+				728956411FA334C8000E3FD4 /* SSignalKitTests.xctest */,
+				728956431FA334C8000E3FD4 /* SwiftSignalKit.framework */,
+				728956451FA334C8000E3FD4 /* SwiftSignalKitTests.xctest */,
+				728956471FA334C8000E3FD4 /* SwiftSignalKitMac.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -19987,7 +19987,7 @@
 		D07041FB15891CEF008AA657 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */,
+				728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */,
 			);
 			name = External;
 			sourceTree = "<group>";
@@ -20727,7 +20727,7 @@
 		D08805E2156E98A100311537 /* submodules */ = {
 			isa = PBXGroup;
 			children = (
-				728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */,
+				728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */,
 				69F842411E67546900C110F7 /* libtgvoip.xcodeproj */,
 				D01F93FD1E5E3D9A002627A1 /* Stripe */,
 				6838488B1C9C810500C9A4DA /* CoubPlayer */,
@@ -26142,16 +26142,16 @@
 					ProjectRef = 69F842411E67546900C110F7 /* libtgvoip.xcodeproj */;
 				},
 				{
-					ProductGroup = 728955F31FA33100000E3FD4 /* Products */;
-					ProjectRef = 728955F21FA33100000E3FD4 /* MtProtoKit.xcodeproj */;
+					ProductGroup = 728956251FA334A8000E3FD4 /* Products */;
+					ProjectRef = 728956241FA334A8000E3FD4 /* MtProtoKit.xcodeproj */;
 				},
 				{
 					ProductGroup = D0A3F2F5195CA9EB009E0ACD /* Products */;
 					ProjectRef = D0A3F2F4195CA9EB009E0ACD /* pop.xcodeproj */;
 				},
 				{
-					ProductGroup = 728956051FA33113000E3FD4 /* Products */;
-					ProjectRef = 728956041FA33113000E3FD4 /* SSignalKit.xcodeproj */;
+					ProductGroup = 728956371FA334C8000E3FD4 /* Products */;
+					ProjectRef = 728956361FA334C8000E3FD4 /* SSignalKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -26182,74 +26182,74 @@
 			remoteRef = 692AB87B1E67591700706ACC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728955FB1FA33101000E3FD4 /* MtProtoKit.framework */ = {
+		7289562D1FA334A9000E3FD4 /* MtProtoKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MtProtoKit.framework;
-			remoteRef = 728955FA1FA33101000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 7289562C1FA334A9000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728955FD1FA33101000E3FD4 /* MtProtoKitMac.framework */ = {
+		7289562F1FA334A9000E3FD4 /* MtProtoKitMac.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MtProtoKitMac.framework;
-			remoteRef = 728955FC1FA33101000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 7289562E1FA334A9000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728955FF1FA33101000E3FD4 /* MtProtoKitDynamic.framework */ = {
+		728956311FA334A9000E3FD4 /* MtProtoKitDynamic.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MtProtoKitDynamic.framework;
-			remoteRef = 728955FE1FA33101000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956301FA334A9000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728956011FA33101000E3FD4 /* MtProtoKitDynamicTests.xctest */ = {
+		728956331FA334A9000E3FD4 /* MtProtoKitDynamicTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MtProtoKitDynamicTests.xctest;
-			remoteRef = 728956001FA33101000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956321FA334A9000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728956031FA33101000E3FD4 /* MtProtoKitStabilityTests.xctest */ = {
+		728956351FA334A9000E3FD4 /* MtProtoKitStabilityTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = MtProtoKitStabilityTests.xctest;
-			remoteRef = 728956021FA33101000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956341FA334A9000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7289560D1FA33114000E3FD4 /* SSignalKit.framework */ = {
+		7289563F1FA334C8000E3FD4 /* SSignalKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SSignalKit.framework;
-			remoteRef = 7289560C1FA33114000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 7289563E1FA334C8000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7289560F1FA33114000E3FD4 /* SSignalKitTests.xctest */ = {
+		728956411FA334C8000E3FD4 /* SSignalKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SSignalKitTests.xctest;
-			remoteRef = 7289560E1FA33114000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956401FA334C8000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728956111FA33114000E3FD4 /* SwiftSignalKit.framework */ = {
+		728956431FA334C8000E3FD4 /* SwiftSignalKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SwiftSignalKit.framework;
-			remoteRef = 728956101FA33114000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956421FA334C8000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728956131FA33114000E3FD4 /* SwiftSignalKitTests.xctest */ = {
+		728956451FA334C8000E3FD4 /* SwiftSignalKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SwiftSignalKitTests.xctest;
-			remoteRef = 728956121FA33114000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956441FA334C8000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		728956151FA33114000E3FD4 /* SwiftSignalKitMac.framework */ = {
+		728956471FA334C8000E3FD4 /* SwiftSignalKitMac.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SwiftSignalKitMac.framework;
-			remoteRef = 728956141FA33114000E3FD4 /* PBXContainerItemProxy */;
+			remoteRef = 728956461FA334C8000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D0A3F2FC195CA9EC009E0ACD /* libpop.a */ = {
