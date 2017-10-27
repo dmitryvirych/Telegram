@@ -1609,6 +1609,101 @@
 		724B53981F86AD81002819C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724B53971F86AD81002819C0 /* Images.xcassets */; };
 		7276C03F1F82984F002B2D12 /* URLOpener.h in Headers */ = {isa = PBXBuildFile; fileRef = 7276C03D1F82984D002B2D12 /* URLOpener.h */; };
 		7276C0401F82984F002B2D12 /* URLOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = 7276C03E1F82984E002B2D12 /* URLOpener.m */; };
+		728953371FA33081000E3FD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728952C21FA3307F000E3FD4 /* Info.plist */; };
+		728953381FA33081000E3FD4 /* SAtomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952C31FA3307F000E3FD4 /* SAtomic.h */; };
+		728953391FA33081000E3FD4 /* SAtomic.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952C41FA3307F000E3FD4 /* SAtomic.m */; };
+		7289533A1FA33081000E3FD4 /* SBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952C51FA3307F000E3FD4 /* SBag.h */; };
+		7289533B1FA33081000E3FD4 /* SBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952C61FA3307F000E3FD4 /* SBag.m */; };
+		7289533C1FA33081000E3FD4 /* SBlockDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952C71FA3307F000E3FD4 /* SBlockDisposable.h */; };
+		7289533D1FA33081000E3FD4 /* SBlockDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952C81FA3307F000E3FD4 /* SBlockDisposable.m */; };
+		7289533E1FA33081000E3FD4 /* SDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952C91FA3307F000E3FD4 /* SDisposable.h */; };
+		7289533F1FA33081000E3FD4 /* SDisposableSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952CA1FA3307F000E3FD4 /* SDisposableSet.h */; };
+		728953401FA33081000E3FD4 /* SDisposableSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952CB1FA3307F000E3FD4 /* SDisposableSet.m */; };
+		728953411FA33081000E3FD4 /* SMetaDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952CC1FA3307F000E3FD4 /* SMetaDisposable.h */; };
+		728953421FA33081000E3FD4 /* SMetaDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952CD1FA3307F000E3FD4 /* SMetaDisposable.m */; };
+		728953431FA33081000E3FD4 /* SMulticastSignalManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952CE1FA3307F000E3FD4 /* SMulticastSignalManager.h */; };
+		728953441FA33081000E3FD4 /* SMulticastSignalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952CF1FA3307F000E3FD4 /* SMulticastSignalManager.m */; };
+		728953451FA33081000E3FD4 /* SQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952D01FA3307F000E3FD4 /* SQueue.h */; };
+		728953461FA33081000E3FD4 /* SQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952D11FA3307F000E3FD4 /* SQueue.m */; };
+		728953471FA33081000E3FD4 /* SSignal+Accumulate.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952D21FA3307F000E3FD4 /* SSignal+Accumulate.h */; };
+		728953481FA33081000E3FD4 /* SSignal+Accumulate.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952D31FA3307F000E3FD4 /* SSignal+Accumulate.m */; };
+		728953491FA33081000E3FD4 /* SSignal+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952D41FA3307F000E3FD4 /* SSignal+Catch.h */; };
+		7289534A1FA33081000E3FD4 /* SSignal+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952D51FA3307F000E3FD4 /* SSignal+Catch.m */; };
+		7289534B1FA33081000E3FD4 /* SSignal+Combine.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952D61FA3307F000E3FD4 /* SSignal+Combine.h */; };
+		7289534C1FA33081000E3FD4 /* SSignal+Combine.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952D71FA3307F000E3FD4 /* SSignal+Combine.m */; };
+		7289534D1FA33081000E3FD4 /* SSignal+Dispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952D81FA3307F000E3FD4 /* SSignal+Dispatch.h */; };
+		7289534E1FA33081000E3FD4 /* SSignal+Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952D91FA3307F000E3FD4 /* SSignal+Dispatch.m */; };
+		7289534F1FA33081000E3FD4 /* SSignal+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952DA1FA3307F000E3FD4 /* SSignal+Mapping.h */; };
+		728953501FA33081000E3FD4 /* SSignal+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952DB1FA3307F000E3FD4 /* SSignal+Mapping.m */; };
+		728953511FA33081000E3FD4 /* SSignal+Meta.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952DC1FA3307F000E3FD4 /* SSignal+Meta.h */; };
+		728953521FA33081000E3FD4 /* SSignal+Meta.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952DD1FA3307F000E3FD4 /* SSignal+Meta.m */; };
+		728953531FA33081000E3FD4 /* SSignal+Multicast.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952DE1FA3307F000E3FD4 /* SSignal+Multicast.h */; };
+		728953541FA33081000E3FD4 /* SSignal+Multicast.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952DF1FA3307F000E3FD4 /* SSignal+Multicast.m */; };
+		728953551FA33081000E3FD4 /* SSignal+Pipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952E01FA3307F000E3FD4 /* SSignal+Pipe.h */; };
+		728953561FA33081000E3FD4 /* SSignal+Pipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952E11FA3307F000E3FD4 /* SSignal+Pipe.m */; };
+		728953571FA33081000E3FD4 /* SSignal+SideEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952E21FA3307F000E3FD4 /* SSignal+SideEffects.h */; };
+		728953581FA33081000E3FD4 /* SSignal+SideEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952E31FA3307F000E3FD4 /* SSignal+SideEffects.m */; };
+		728953591FA33081000E3FD4 /* SSignal+Single.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952E41FA3307F000E3FD4 /* SSignal+Single.h */; };
+		7289535A1FA33081000E3FD4 /* SSignal+Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952E51FA3307F000E3FD4 /* SSignal+Single.m */; };
+		7289535B1FA33081000E3FD4 /* SSignal+Take.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952E61FA3307F000E3FD4 /* SSignal+Take.h */; };
+		7289535C1FA33081000E3FD4 /* SSignal+Take.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952E71FA3307F000E3FD4 /* SSignal+Take.m */; };
+		7289535D1FA33081000E3FD4 /* SSignal+Timing.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952E81FA3307F000E3FD4 /* SSignal+Timing.h */; };
+		7289535E1FA33081000E3FD4 /* SSignal+Timing.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952E91FA3307F000E3FD4 /* SSignal+Timing.m */; };
+		7289535F1FA33081000E3FD4 /* SSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952EA1FA3307F000E3FD4 /* SSignal.h */; };
+		728953601FA33081000E3FD4 /* SSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952EB1FA3307F000E3FD4 /* SSignal.m */; };
+		728953611FA33081000E3FD4 /* SSignalKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952EC1FA3307F000E3FD4 /* SSignalKit.h */; };
+		728953621FA33081000E3FD4 /* SSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952ED1FA3307F000E3FD4 /* SSubscriber.h */; };
+		728953631FA33081000E3FD4 /* SSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952EE1FA3307F000E3FD4 /* SSubscriber.m */; };
+		728953641FA33081000E3FD4 /* SThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952EF1FA3307F000E3FD4 /* SThreadPool.h */; };
+		728953651FA33081000E3FD4 /* SThreadPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952F01FA3307F000E3FD4 /* SThreadPool.m */; };
+		728953661FA33081000E3FD4 /* SThreadPoolQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952F11FA3307F000E3FD4 /* SThreadPoolQueue.h */; };
+		728953671FA33081000E3FD4 /* SThreadPoolQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952F21FA3307F000E3FD4 /* SThreadPoolQueue.m */; };
+		728953681FA33081000E3FD4 /* SThreadPoolTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952F31FA3307F000E3FD4 /* SThreadPoolTask.h */; };
+		728953691FA33081000E3FD4 /* SThreadPoolTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952F41FA3307F000E3FD4 /* SThreadPoolTask.m */; };
+		7289536A1FA33081000E3FD4 /* STimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952F51FA3307F000E3FD4 /* STimer.h */; };
+		7289536B1FA33081000E3FD4 /* STimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952F61FA3307F000E3FD4 /* STimer.m */; };
+		7289536C1FA33081000E3FD4 /* SVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952F71FA3307F000E3FD4 /* SVariable.h */; };
+		7289536D1FA33081000E3FD4 /* SVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952F81FA3307F000E3FD4 /* SVariable.m */; };
+		7289536E1FA33081000E3FD4 /* DeallocatingObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 728952FD1FA3307F000E3FD4 /* DeallocatingObject.h */; };
+		7289536F1FA33081000E3FD4 /* DeallocatingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 728952FE1FA3307F000E3FD4 /* DeallocatingObject.m */; };
+		728953701FA33081000E3FD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728952FF1FA3307F000E3FD4 /* Info.plist */; };
+		728953711FA33081000E3FD4 /* SDisposableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 728953001FA3307F000E3FD4 /* SDisposableTests.m */; };
+		728953721FA33081000E3FD4 /* SSignalBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 728953011FA3307F000E3FD4 /* SSignalBasicTests.m */; };
+		728953731FA33081000E3FD4 /* SSignalPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 728953021FA3307F000E3FD4 /* SSignalPerformanceTests.m */; };
+		728953741FA33081000E3FD4 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953041FA3307F000E3FD4 /* Atomic.swift */; };
+		728953751FA33081000E3FD4 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953051FA3307F000E3FD4 /* Bag.swift */; };
+		728953761FA33081000E3FD4 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953061FA3307F000E3FD4 /* Disposable.swift */; };
+		728953771FA33081000E3FD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728953071FA3307F000E3FD4 /* Info.plist */; };
+		728953781FA33081000E3FD4 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953081FA3307F000E3FD4 /* Lock.swift */; };
+		728953791FA33081000E3FD4 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953091FA3307F000E3FD4 /* Multicast.swift */; };
+		7289537A1FA33081000E3FD4 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289530A1FA3307F000E3FD4 /* Promise.swift */; };
+		7289537B1FA33081000E3FD4 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289530B1FA3307F000E3FD4 /* Queue.swift */; };
+		7289537C1FA33081000E3FD4 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289530C1FA3307F000E3FD4 /* Signal.swift */; };
+		7289537D1FA33081000E3FD4 /* Signal_Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289530D1FA3307F000E3FD4 /* Signal_Catch.swift */; };
+		7289537E1FA33081000E3FD4 /* Signal_Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289530E1FA3307F000E3FD4 /* Signal_Combine.swift */; };
+		7289537F1FA33081000E3FD4 /* Signal_Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289530F1FA3307F000E3FD4 /* Signal_Dispatch.swift */; };
+		728953801FA33081000E3FD4 /* Signal_Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953101FA3307F000E3FD4 /* Signal_Mapping.swift */; };
+		728953811FA33081000E3FD4 /* Signal_Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953111FA3307F000E3FD4 /* Signal_Materialize.swift */; };
+		728953821FA33081000E3FD4 /* Signal_Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953121FA3307F000E3FD4 /* Signal_Merge.swift */; };
+		728953831FA33081000E3FD4 /* Signal_Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953131FA3307F000E3FD4 /* Signal_Meta.swift */; };
+		728953841FA33081000E3FD4 /* Signal_Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953141FA3307F000E3FD4 /* Signal_Reduce.swift */; };
+		728953851FA33081000E3FD4 /* Signal_SideEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953151FA3307F000E3FD4 /* Signal_SideEffects.swift */; };
+		728953861FA33081000E3FD4 /* Signal_Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953161FA3307F000E3FD4 /* Signal_Single.swift */; };
+		728953871FA33081000E3FD4 /* Signal_Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953171FA3307F000E3FD4 /* Signal_Take.swift */; };
+		728953881FA33081000E3FD4 /* Signal_Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953181FA3307F000E3FD4 /* Signal_Timing.swift */; };
+		728953891FA33081000E3FD4 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953191FA3307F000E3FD4 /* Subscriber.swift */; };
+		7289538A1FA33081000E3FD4 /* SwiftSignalKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7289531A1FA3307F000E3FD4 /* SwiftSignalKit.h */; };
+		7289538B1FA33082000E3FD4 /* ThreadPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289531B1FA3307F000E3FD4 /* ThreadPool.swift */; };
+		7289538C1FA33082000E3FD4 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289531C1FA3307F000E3FD4 /* Timer.swift */; };
+		7289538D1FA33082000E3FD4 /* ValuePipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7289531D1FA3307F000E3FD4 /* ValuePipe.swift */; };
+		7289538E1FA33082000E3FD4 /* SwiftSignalKit copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7289531E1FA3307F000E3FD4 /* SwiftSignalKit copy-Info.plist */; };
+		7289538F1FA33082000E3FD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728953201FA3307F000E3FD4 /* Info.plist */; };
+		728953901FA33082000E3FD4 /* SwiftSignalKitMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 728953211FA3307F000E3FD4 /* SwiftSignalKitMac.h */; };
+		728953911FA33082000E3FD4 /* DeallocatingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953231FA3307F000E3FD4 /* DeallocatingObject.swift */; };
+		728953921FA33082000E3FD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728953241FA3307F000E3FD4 /* Info.plist */; };
+		728953931FA33082000E3FD4 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953251FA3307F000E3FD4 /* PerformanceTests.swift */; };
+		728953941FA33082000E3FD4 /* SwiftSignalKitBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953261FA3307F000E3FD4 /* SwiftSignalKitBasicTests.swift */; };
+		728953951FA33082000E3FD4 /* SwiftSignalKitFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728953271FA3307F000E3FD4 /* SwiftSignalKitFunctionsTests.swift */; };
 		9302CA2F171B581200C8559D /* VideoSliderBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9302CA2A171B581200C8559D /* VideoSliderBackground@2x.png */; };
 		9302CA31171B581200C8559D /* VideoSliderForeground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9302CA2C171B581200C8559D /* VideoSliderForeground@2x.png */; };
 		9302CA33171B581200C8559D /* VideoSliderHandle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9302CA2E171B581200C8559D /* VideoSliderHandle@2x.png */; };
@@ -2463,7 +2558,6 @@
 		D020FB311D99681400F279AA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FB2B1D99681400F279AA /* FMDatabaseAdditions.m */; };
 		D020FB321D99681400F279AA /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB2C1D99681400F279AA /* FMResultSet.h */; };
 		D020FB331D99681400F279AA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FB2D1D99681400F279AA /* FMResultSet.m */; };
-		D020FB391D996C0F00F279AA /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08763251A83963900632240 /* SSignalKit.framework */; };
 		D020FB3C1D996C3E00F279AA /* ApiLayer70.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FB3A1D996C3E00F279AA /* ApiLayer70.m */; };
 		D020FB3D1D996C3E00F279AA /* ApiLayer70.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB3B1D996C3E00F279AA /* ApiLayer70.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D020FB591D996D5200F279AA /* TGShareContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB3F1D996D5200F279AA /* TGShareContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -5214,7 +5308,6 @@
 		D0CAEA231A6D9BB20033650D /* TGSharedPhotoSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAEA221A6D9BB20033650D /* TGSharedPhotoSignals.m */; };
 		D0CAEA261A6D9DA60033650D /* TGSharedMediaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAEA251A6D9DA60033650D /* TGSharedMediaUtils.m */; };
 		D0CAEA291A6DA1560033650D /* TGMemoryImageCache+Signals.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAEA281A6DA1560033650D /* TGMemoryImageCache+Signals.m */; };
-		D0CB068D1ADC8DCE005E298F /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08763251A83963900632240 /* SSignalKit.framework */; };
 		D0CB14A0199A7A4E00EBCEA7 /* TGGenericPeerMediaGalleryDefaultHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB149F199A7A4E00EBCEA7 /* TGGenericPeerMediaGalleryDefaultHeaderView.m */; };
 		D0CB14A4199CEF8F00EBCEA7 /* TGGenericPeerMediaGalleryActionsAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB14A3199CEF8F00EBCEA7 /* TGGenericPeerMediaGalleryActionsAccessoryView.m */; };
 		D0CB14A7199CEFAE00EBCEA7 /* TGGenericPeerMediaGalleryDeleteAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB14A6199CEFAE00EBCEA7 /* TGGenericPeerMediaGalleryDeleteAccessoryView.m */; };
@@ -5811,6 +5904,41 @@
 			remoteGlobalIDString = D00354651C173BF0006610DA;
 			remoteInfo = MtProtoKitStabilityTests;
 		};
+		7289532D1FA33080000E3FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0445DD81A7C2CA500267924;
+			remoteInfo = SSignalKit;
+		};
+		7289532F1FA33080000E3FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0445DE31A7C2CA500267924;
+			remoteInfo = SSignalKitTests;
+		};
+		728953311FA33080000E3FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0085B221B282B9800EAF753;
+			remoteInfo = SwiftSignalKit;
+		};
+		728953331FA33080000E3FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0085B2C1B282B9800EAF753;
+			remoteInfo = SwiftSignalKitTests;
+		};
+		728953351FA33080000E3FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0B417ED1D7DFA63004562A4;
+			remoteInfo = SwiftSignalKitMac;
+		};
 		D020FAE31D99466A00F279AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D08805A3156E8F3600311537 /* Project object */;
@@ -5825,47 +5953,12 @@
 			remoteGlobalIDString = D020FB091D99637100F279AA;
 			remoteInfo = LegacyDatabase;
 		};
-		D04324E21DC26E2E00E0C528 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0B417ED1D7DFA63004562A4;
-			remoteInfo = SwiftSignalKitMac;
-		};
-		D044E1571B2A20DB001EE087 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0085B221B282B9800EAF753;
-			remoteInfo = SwiftSignalKit;
-		};
-		D044E1591B2A20DB001EE087 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0085B2C1B282B9800EAF753;
-			remoteInfo = SwiftSignalKitTests;
-		};
 		D061F3001A9290F80031BCBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D08805A3156E8F3600311537 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D02601D61A55CA2300716290;
 			remoteInfo = Share;
-		};
-		D08763241A83963900632240 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0445DD81A7C2CA500267924;
-			remoteInfo = SSignalKit;
-		};
-		D08763261A83963900632240 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D0445DE31A7C2CA500267924;
-			remoteInfo = SSignalKitTests;
 		};
 		D087633E1A83C1DE00632240 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5887,20 +5980,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = EC68857F18C7B60000C6194C;
 			remoteInfo = "pop-osx";
-		};
-		D0CB06891ADC8DA6005E298F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D0445DD71A7C2CA500267924;
-			remoteInfo = SSignalKit;
-		};
-		D0CB068B1ADC8DC6005E298F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D0445DD71A7C2CA500267924;
-			remoteInfo = SSignalKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -7716,6 +7795,102 @@
 		7276C03D1F82984D002B2D12 /* URLOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLOpener.h; sourceTree = "<group>"; };
 		7276C03E1F82984E002B2D12 /* URLOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLOpener.m; sourceTree = "<group>"; };
 		728952AE1FA3300F000E3FD4 /* MtProtoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MtProtoKit.xcodeproj; path = submodules/mtProtoKit1/MtProtoKit.xcodeproj; sourceTree = "<group>"; };
+		728952C21FA3307F000E3FD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728952C31FA3307F000E3FD4 /* SAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAtomic.h; sourceTree = "<group>"; };
+		728952C41FA3307F000E3FD4 /* SAtomic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAtomic.m; sourceTree = "<group>"; };
+		728952C51FA3307F000E3FD4 /* SBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBag.h; sourceTree = "<group>"; };
+		728952C61FA3307F000E3FD4 /* SBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBag.m; sourceTree = "<group>"; };
+		728952C71FA3307F000E3FD4 /* SBlockDisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBlockDisposable.h; sourceTree = "<group>"; };
+		728952C81FA3307F000E3FD4 /* SBlockDisposable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBlockDisposable.m; sourceTree = "<group>"; };
+		728952C91FA3307F000E3FD4 /* SDisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDisposable.h; sourceTree = "<group>"; };
+		728952CA1FA3307F000E3FD4 /* SDisposableSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDisposableSet.h; sourceTree = "<group>"; };
+		728952CB1FA3307F000E3FD4 /* SDisposableSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDisposableSet.m; sourceTree = "<group>"; };
+		728952CC1FA3307F000E3FD4 /* SMetaDisposable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMetaDisposable.h; sourceTree = "<group>"; };
+		728952CD1FA3307F000E3FD4 /* SMetaDisposable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMetaDisposable.m; sourceTree = "<group>"; };
+		728952CE1FA3307F000E3FD4 /* SMulticastSignalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMulticastSignalManager.h; sourceTree = "<group>"; };
+		728952CF1FA3307F000E3FD4 /* SMulticastSignalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMulticastSignalManager.m; sourceTree = "<group>"; };
+		728952D01FA3307F000E3FD4 /* SQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQueue.h; sourceTree = "<group>"; };
+		728952D11FA3307F000E3FD4 /* SQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQueue.m; sourceTree = "<group>"; };
+		728952D21FA3307F000E3FD4 /* SSignal+Accumulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Accumulate.h"; sourceTree = "<group>"; };
+		728952D31FA3307F000E3FD4 /* SSignal+Accumulate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Accumulate.m"; sourceTree = "<group>"; };
+		728952D41FA3307F000E3FD4 /* SSignal+Catch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Catch.h"; sourceTree = "<group>"; };
+		728952D51FA3307F000E3FD4 /* SSignal+Catch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Catch.m"; sourceTree = "<group>"; };
+		728952D61FA3307F000E3FD4 /* SSignal+Combine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Combine.h"; sourceTree = "<group>"; };
+		728952D71FA3307F000E3FD4 /* SSignal+Combine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Combine.m"; sourceTree = "<group>"; };
+		728952D81FA3307F000E3FD4 /* SSignal+Dispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Dispatch.h"; sourceTree = "<group>"; };
+		728952D91FA3307F000E3FD4 /* SSignal+Dispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Dispatch.m"; sourceTree = "<group>"; };
+		728952DA1FA3307F000E3FD4 /* SSignal+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Mapping.h"; sourceTree = "<group>"; };
+		728952DB1FA3307F000E3FD4 /* SSignal+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Mapping.m"; sourceTree = "<group>"; };
+		728952DC1FA3307F000E3FD4 /* SSignal+Meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Meta.h"; sourceTree = "<group>"; };
+		728952DD1FA3307F000E3FD4 /* SSignal+Meta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Meta.m"; sourceTree = "<group>"; };
+		728952DE1FA3307F000E3FD4 /* SSignal+Multicast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Multicast.h"; sourceTree = "<group>"; };
+		728952DF1FA3307F000E3FD4 /* SSignal+Multicast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Multicast.m"; sourceTree = "<group>"; };
+		728952E01FA3307F000E3FD4 /* SSignal+Pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Pipe.h"; sourceTree = "<group>"; };
+		728952E11FA3307F000E3FD4 /* SSignal+Pipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Pipe.m"; sourceTree = "<group>"; };
+		728952E21FA3307F000E3FD4 /* SSignal+SideEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+SideEffects.h"; sourceTree = "<group>"; };
+		728952E31FA3307F000E3FD4 /* SSignal+SideEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+SideEffects.m"; sourceTree = "<group>"; };
+		728952E41FA3307F000E3FD4 /* SSignal+Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Single.h"; sourceTree = "<group>"; };
+		728952E51FA3307F000E3FD4 /* SSignal+Single.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Single.m"; sourceTree = "<group>"; };
+		728952E61FA3307F000E3FD4 /* SSignal+Take.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Take.h"; sourceTree = "<group>"; };
+		728952E71FA3307F000E3FD4 /* SSignal+Take.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Take.m"; sourceTree = "<group>"; };
+		728952E81FA3307F000E3FD4 /* SSignal+Timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSignal+Timing.h"; sourceTree = "<group>"; };
+		728952E91FA3307F000E3FD4 /* SSignal+Timing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSignal+Timing.m"; sourceTree = "<group>"; };
+		728952EA1FA3307F000E3FD4 /* SSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSignal.h; sourceTree = "<group>"; };
+		728952EB1FA3307F000E3FD4 /* SSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSignal.m; sourceTree = "<group>"; };
+		728952EC1FA3307F000E3FD4 /* SSignalKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSignalKit.h; sourceTree = "<group>"; };
+		728952ED1FA3307F000E3FD4 /* SSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSubscriber.h; sourceTree = "<group>"; };
+		728952EE1FA3307F000E3FD4 /* SSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSubscriber.m; sourceTree = "<group>"; };
+		728952EF1FA3307F000E3FD4 /* SThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SThreadPool.h; sourceTree = "<group>"; };
+		728952F01FA3307F000E3FD4 /* SThreadPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SThreadPool.m; sourceTree = "<group>"; };
+		728952F11FA3307F000E3FD4 /* SThreadPoolQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SThreadPoolQueue.h; sourceTree = "<group>"; };
+		728952F21FA3307F000E3FD4 /* SThreadPoolQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SThreadPoolQueue.m; sourceTree = "<group>"; };
+		728952F31FA3307F000E3FD4 /* SThreadPoolTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SThreadPoolTask.h; sourceTree = "<group>"; };
+		728952F41FA3307F000E3FD4 /* SThreadPoolTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SThreadPoolTask.m; sourceTree = "<group>"; };
+		728952F51FA3307F000E3FD4 /* STimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STimer.h; sourceTree = "<group>"; };
+		728952F61FA3307F000E3FD4 /* STimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STimer.m; sourceTree = "<group>"; };
+		728952F71FA3307F000E3FD4 /* SVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVariable.h; sourceTree = "<group>"; };
+		728952F81FA3307F000E3FD4 /* SVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVariable.m; sourceTree = "<group>"; };
+		728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SSignalKit.xcodeproj; sourceTree = "<group>"; };
+		728952FD1FA3307F000E3FD4 /* DeallocatingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeallocatingObject.h; sourceTree = "<group>"; };
+		728952FE1FA3307F000E3FD4 /* DeallocatingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeallocatingObject.m; sourceTree = "<group>"; };
+		728952FF1FA3307F000E3FD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728953001FA3307F000E3FD4 /* SDisposableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDisposableTests.m; sourceTree = "<group>"; };
+		728953011FA3307F000E3FD4 /* SSignalBasicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSignalBasicTests.m; sourceTree = "<group>"; };
+		728953021FA3307F000E3FD4 /* SSignalPerformanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSignalPerformanceTests.m; sourceTree = "<group>"; };
+		728953041FA3307F000E3FD4 /* Atomic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		728953051FA3307F000E3FD4 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		728953061FA3307F000E3FD4 /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		728953071FA3307F000E3FD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728953081FA3307F000E3FD4 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		728953091FA3307F000E3FD4 /* Multicast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multicast.swift; sourceTree = "<group>"; };
+		7289530A1FA3307F000E3FD4 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		7289530B1FA3307F000E3FD4 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		7289530C1FA3307F000E3FD4 /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		7289530D1FA3307F000E3FD4 /* Signal_Catch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Catch.swift; sourceTree = "<group>"; };
+		7289530E1FA3307F000E3FD4 /* Signal_Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Combine.swift; sourceTree = "<group>"; };
+		7289530F1FA3307F000E3FD4 /* Signal_Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Dispatch.swift; sourceTree = "<group>"; };
+		728953101FA3307F000E3FD4 /* Signal_Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Mapping.swift; sourceTree = "<group>"; };
+		728953111FA3307F000E3FD4 /* Signal_Materialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Materialize.swift; sourceTree = "<group>"; };
+		728953121FA3307F000E3FD4 /* Signal_Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Merge.swift; sourceTree = "<group>"; };
+		728953131FA3307F000E3FD4 /* Signal_Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Meta.swift; sourceTree = "<group>"; };
+		728953141FA3307F000E3FD4 /* Signal_Reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Reduce.swift; sourceTree = "<group>"; };
+		728953151FA3307F000E3FD4 /* Signal_SideEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_SideEffects.swift; sourceTree = "<group>"; };
+		728953161FA3307F000E3FD4 /* Signal_Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Single.swift; sourceTree = "<group>"; };
+		728953171FA3307F000E3FD4 /* Signal_Take.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Take.swift; sourceTree = "<group>"; };
+		728953181FA3307F000E3FD4 /* Signal_Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal_Timing.swift; sourceTree = "<group>"; };
+		728953191FA3307F000E3FD4 /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
+		7289531A1FA3307F000E3FD4 /* SwiftSignalKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftSignalKit.h; sourceTree = "<group>"; };
+		7289531B1FA3307F000E3FD4 /* ThreadPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadPool.swift; sourceTree = "<group>"; };
+		7289531C1FA3307F000E3FD4 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		7289531D1FA3307F000E3FD4 /* ValuePipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValuePipe.swift; sourceTree = "<group>"; };
+		7289531E1FA3307F000E3FD4 /* SwiftSignalKit copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SwiftSignalKit copy-Info.plist"; sourceTree = "<group>"; };
+		728953201FA3307F000E3FD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728953211FA3307F000E3FD4 /* SwiftSignalKitMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftSignalKitMac.h; sourceTree = "<group>"; };
+		728953231FA3307F000E3FD4 /* DeallocatingObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeallocatingObject.swift; sourceTree = "<group>"; };
+		728953241FA3307F000E3FD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728953251FA3307F000E3FD4 /* PerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		728953261FA3307F000E3FD4 /* SwiftSignalKitBasicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSignalKitBasicTests.swift; sourceTree = "<group>"; };
+		728953271FA3307F000E3FD4 /* SwiftSignalKitFunctionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSignalKitFunctionsTests.swift; sourceTree = "<group>"; };
 		72FB0C291F8D135700759A67 /* Cloud Veil Messenger Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Veil Messenger Share.entitlements"; sourceTree = "<group>"; };
 		72FB0C2A1F8D14F700759A67 /* Cloud Veil Messenger watchkitapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Veil Messenger watchkitapp.entitlements"; sourceTree = "<group>"; };
 		72FB0C2B1F8D150200759A67 /* Cloud Veil Messenger watchkitapp Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Veil Messenger watchkitapp Extension.entitlements"; sourceTree = "<group>"; };
@@ -11106,7 +11281,6 @@
 		D08696B21943A8B300770FE7 /* pad-builtin-wallpaper-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pad-builtin-wallpaper-0.jpg"; sourceTree = "<group>"; };
 		D087139D1D89910700717706 /* TGStickerPacksArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGStickerPacksArchive.h; sourceTree = "<group>"; };
 		D087139E1D89910700717706 /* TGStickerPacksArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGStickerPacksArchive.m; sourceTree = "<group>"; };
-		D087631F1A83963900632240 /* SSignalKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSignalKit.xcodeproj; path = thirdparty/SSignalKit/SSignalKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D08763411A83C47600632240 /* TGModernConversationControllerDynamicTypeSignals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernConversationControllerDynamicTypeSignals.h; sourceTree = "<group>"; };
 		D08763421A83C47600632240 /* TGModernConversationControllerDynamicTypeSignals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernConversationControllerDynamicTypeSignals.m; sourceTree = "<group>"; };
 		D0876FD5196F348D005740CE /* TGModernGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModernGalleryModel.h; sourceTree = "<group>"; };
@@ -12697,7 +12871,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D020FB391D996C0F00F279AA /* SSignalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -12721,7 +12894,6 @@
 				D00C79211BBCA4CA00F979C8 /* HockeySDK.framework in Frameworks */,
 				D0CD8FF71BB33B9900E05F40 /* SafariServices.framework in Frameworks */,
 				6836F8F51BB262CC00D3A77B /* WatchConnectivity.framework in Frameworks */,
-				D0CB068D1ADC8DCE005E298F /* SSignalKit.framework in Frameworks */,
 				D0C09C901A6E98A4008369D7 /* OpenGLES.framework in Frameworks */,
 				D0C09C8F1A6E9897008369D7 /* CoreImage.framework in Frameworks */,
 				D0C925D9194A041800E629CA /* GLKit.framework in Frameworks */,
@@ -15111,6 +15283,162 @@
 				728952BF1FA3300F000E3FD4 /* MtProtoKitStabilityTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		728952C01FA3307F000E3FD4 /* SSignalKit1 */ = {
+			isa = PBXGroup;
+			children = (
+				728952C11FA3307F000E3FD4 /* SSignalKit */,
+				728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */,
+				728952FC1FA3307F000E3FD4 /* SSignalKitTests */,
+				728953031FA3307F000E3FD4 /* SwiftSignalKit */,
+				7289531E1FA3307F000E3FD4 /* SwiftSignalKit copy-Info.plist */,
+				7289531F1FA3307F000E3FD4 /* SwiftSignalKitMac */,
+				728953221FA3307F000E3FD4 /* SwiftSignalKitTests */,
+			);
+			name = SSignalKit1;
+			path = thirdparty/SSignalKit1;
+			sourceTree = SOURCE_ROOT;
+		};
+		728952C11FA3307F000E3FD4 /* SSignalKit */ = {
+			isa = PBXGroup;
+			children = (
+				728952C21FA3307F000E3FD4 /* Info.plist */,
+				728952C31FA3307F000E3FD4 /* SAtomic.h */,
+				728952C41FA3307F000E3FD4 /* SAtomic.m */,
+				728952C51FA3307F000E3FD4 /* SBag.h */,
+				728952C61FA3307F000E3FD4 /* SBag.m */,
+				728952C71FA3307F000E3FD4 /* SBlockDisposable.h */,
+				728952C81FA3307F000E3FD4 /* SBlockDisposable.m */,
+				728952C91FA3307F000E3FD4 /* SDisposable.h */,
+				728952CA1FA3307F000E3FD4 /* SDisposableSet.h */,
+				728952CB1FA3307F000E3FD4 /* SDisposableSet.m */,
+				728952CC1FA3307F000E3FD4 /* SMetaDisposable.h */,
+				728952CD1FA3307F000E3FD4 /* SMetaDisposable.m */,
+				728952CE1FA3307F000E3FD4 /* SMulticastSignalManager.h */,
+				728952CF1FA3307F000E3FD4 /* SMulticastSignalManager.m */,
+				728952D01FA3307F000E3FD4 /* SQueue.h */,
+				728952D11FA3307F000E3FD4 /* SQueue.m */,
+				728952D21FA3307F000E3FD4 /* SSignal+Accumulate.h */,
+				728952D31FA3307F000E3FD4 /* SSignal+Accumulate.m */,
+				728952D41FA3307F000E3FD4 /* SSignal+Catch.h */,
+				728952D51FA3307F000E3FD4 /* SSignal+Catch.m */,
+				728952D61FA3307F000E3FD4 /* SSignal+Combine.h */,
+				728952D71FA3307F000E3FD4 /* SSignal+Combine.m */,
+				728952D81FA3307F000E3FD4 /* SSignal+Dispatch.h */,
+				728952D91FA3307F000E3FD4 /* SSignal+Dispatch.m */,
+				728952DA1FA3307F000E3FD4 /* SSignal+Mapping.h */,
+				728952DB1FA3307F000E3FD4 /* SSignal+Mapping.m */,
+				728952DC1FA3307F000E3FD4 /* SSignal+Meta.h */,
+				728952DD1FA3307F000E3FD4 /* SSignal+Meta.m */,
+				728952DE1FA3307F000E3FD4 /* SSignal+Multicast.h */,
+				728952DF1FA3307F000E3FD4 /* SSignal+Multicast.m */,
+				728952E01FA3307F000E3FD4 /* SSignal+Pipe.h */,
+				728952E11FA3307F000E3FD4 /* SSignal+Pipe.m */,
+				728952E21FA3307F000E3FD4 /* SSignal+SideEffects.h */,
+				728952E31FA3307F000E3FD4 /* SSignal+SideEffects.m */,
+				728952E41FA3307F000E3FD4 /* SSignal+Single.h */,
+				728952E51FA3307F000E3FD4 /* SSignal+Single.m */,
+				728952E61FA3307F000E3FD4 /* SSignal+Take.h */,
+				728952E71FA3307F000E3FD4 /* SSignal+Take.m */,
+				728952E81FA3307F000E3FD4 /* SSignal+Timing.h */,
+				728952E91FA3307F000E3FD4 /* SSignal+Timing.m */,
+				728952EA1FA3307F000E3FD4 /* SSignal.h */,
+				728952EB1FA3307F000E3FD4 /* SSignal.m */,
+				728952EC1FA3307F000E3FD4 /* SSignalKit.h */,
+				728952ED1FA3307F000E3FD4 /* SSubscriber.h */,
+				728952EE1FA3307F000E3FD4 /* SSubscriber.m */,
+				728952EF1FA3307F000E3FD4 /* SThreadPool.h */,
+				728952F01FA3307F000E3FD4 /* SThreadPool.m */,
+				728952F11FA3307F000E3FD4 /* SThreadPoolQueue.h */,
+				728952F21FA3307F000E3FD4 /* SThreadPoolQueue.m */,
+				728952F31FA3307F000E3FD4 /* SThreadPoolTask.h */,
+				728952F41FA3307F000E3FD4 /* SThreadPoolTask.m */,
+				728952F51FA3307F000E3FD4 /* STimer.h */,
+				728952F61FA3307F000E3FD4 /* STimer.m */,
+				728952F71FA3307F000E3FD4 /* SVariable.h */,
+				728952F81FA3307F000E3FD4 /* SVariable.m */,
+			);
+			path = SSignalKit;
+			sourceTree = "<group>";
+		};
+		728952FA1FA3307F000E3FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7289532E1FA33080000E3FD4 /* SSignalKit.framework */,
+				728953301FA33080000E3FD4 /* SSignalKitTests.xctest */,
+				728953321FA33080000E3FD4 /* SwiftSignalKit.framework */,
+				728953341FA33080000E3FD4 /* SwiftSignalKitTests.xctest */,
+				728953361FA33080000E3FD4 /* SwiftSignalKitMac.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728952FC1FA3307F000E3FD4 /* SSignalKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				728952FD1FA3307F000E3FD4 /* DeallocatingObject.h */,
+				728952FE1FA3307F000E3FD4 /* DeallocatingObject.m */,
+				728952FF1FA3307F000E3FD4 /* Info.plist */,
+				728953001FA3307F000E3FD4 /* SDisposableTests.m */,
+				728953011FA3307F000E3FD4 /* SSignalBasicTests.m */,
+				728953021FA3307F000E3FD4 /* SSignalPerformanceTests.m */,
+			);
+			path = SSignalKitTests;
+			sourceTree = "<group>";
+		};
+		728953031FA3307F000E3FD4 /* SwiftSignalKit */ = {
+			isa = PBXGroup;
+			children = (
+				728953041FA3307F000E3FD4 /* Atomic.swift */,
+				728953051FA3307F000E3FD4 /* Bag.swift */,
+				728953061FA3307F000E3FD4 /* Disposable.swift */,
+				728953071FA3307F000E3FD4 /* Info.plist */,
+				728953081FA3307F000E3FD4 /* Lock.swift */,
+				728953091FA3307F000E3FD4 /* Multicast.swift */,
+				7289530A1FA3307F000E3FD4 /* Promise.swift */,
+				7289530B1FA3307F000E3FD4 /* Queue.swift */,
+				7289530C1FA3307F000E3FD4 /* Signal.swift */,
+				7289530D1FA3307F000E3FD4 /* Signal_Catch.swift */,
+				7289530E1FA3307F000E3FD4 /* Signal_Combine.swift */,
+				7289530F1FA3307F000E3FD4 /* Signal_Dispatch.swift */,
+				728953101FA3307F000E3FD4 /* Signal_Mapping.swift */,
+				728953111FA3307F000E3FD4 /* Signal_Materialize.swift */,
+				728953121FA3307F000E3FD4 /* Signal_Merge.swift */,
+				728953131FA3307F000E3FD4 /* Signal_Meta.swift */,
+				728953141FA3307F000E3FD4 /* Signal_Reduce.swift */,
+				728953151FA3307F000E3FD4 /* Signal_SideEffects.swift */,
+				728953161FA3307F000E3FD4 /* Signal_Single.swift */,
+				728953171FA3307F000E3FD4 /* Signal_Take.swift */,
+				728953181FA3307F000E3FD4 /* Signal_Timing.swift */,
+				728953191FA3307F000E3FD4 /* Subscriber.swift */,
+				7289531A1FA3307F000E3FD4 /* SwiftSignalKit.h */,
+				7289531B1FA3307F000E3FD4 /* ThreadPool.swift */,
+				7289531C1FA3307F000E3FD4 /* Timer.swift */,
+				7289531D1FA3307F000E3FD4 /* ValuePipe.swift */,
+			);
+			path = SwiftSignalKit;
+			sourceTree = "<group>";
+		};
+		7289531F1FA3307F000E3FD4 /* SwiftSignalKitMac */ = {
+			isa = PBXGroup;
+			children = (
+				728953201FA3307F000E3FD4 /* Info.plist */,
+				728953211FA3307F000E3FD4 /* SwiftSignalKitMac.h */,
+			);
+			path = SwiftSignalKitMac;
+			sourceTree = "<group>";
+		};
+		728953221FA3307F000E3FD4 /* SwiftSignalKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				728953231FA3307F000E3FD4 /* DeallocatingObject.swift */,
+				728953241FA3307F000E3FD4 /* Info.plist */,
+				728953251FA3307F000E3FD4 /* PerformanceTests.swift */,
+				728953261FA3307F000E3FD4 /* SwiftSignalKitBasicTests.swift */,
+				728953271FA3307F000E3FD4 /* SwiftSignalKitFunctionsTests.swift */,
+			);
+			path = SwiftSignalKitTests;
 			sourceTree = "<group>";
 		};
 		930384151811754100CAC996 /* Collection Menu */ = {
@@ -20457,18 +20785,6 @@
 			name = FAQ;
 			sourceTree = "<group>";
 		};
-		D08763201A83963900632240 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D08763251A83963900632240 /* SSignalKit.framework */,
-				D08763271A83963900632240 /* SSignalKitTests.xctest */,
-				D044E1581B2A20DB001EE087 /* SwiftSignalKit.framework */,
-				D044E15A1B2A20DB001EE087 /* SwiftSignalKitTests.xctest */,
-				D04324E31DC26E2E00E0C528 /* SwiftSignalKitMac.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D08763401A83C45D00632240 /* Signals */ = {
 			isa = PBXGroup;
 			children = (
@@ -20745,13 +21061,13 @@
 		D08805E2156E98A100311537 /* submodules */ = {
 			isa = PBXGroup;
 			children = (
+				728952C01FA3307F000E3FD4 /* SSignalKit1 */,
 				69F842411E67546900C110F7 /* libtgvoip.xcodeproj */,
 				D01F93FD1E5E3D9A002627A1 /* Stripe */,
 				6838488B1C9C810500C9A4DA /* CoubPlayer */,
 				D08BE0711BD956D00004F382 /* Gif Converter */,
 				D00C791B1BBCA4CA00F979C8 /* HockeySDK-iOS-3 */,
 				D0C80D3E1A95621500D5DF8A /* sqlcipher */,
-				D087631F1A83963900632240 /* SSignalKit.xcodeproj */,
 				D02EA2211A367BCD001A25CD /* Motion Blur */,
 				D0CFE45A1A35AB0600839901 /* lz4 */,
 				D071477C1A14BFF300D7896A /* UIImage+WebP.h */,
@@ -24205,6 +24521,7 @@
 				D053B2B71F1509EC00E2D58A /* TLRPChelp_getNearestDc.h in Headers */,
 				D06BE8551B8F4BCF00F394CF /* TGHoleMessageViewModel.h in Headers */,
 				681EAC231A239FCC00E7C40C /* TGPhotoToolCell.h in Headers */,
+				728953551FA33081000E3FD4 /* SSignal+Pipe.h in Headers */,
 				D053B05D1F1509E700E2D58A /* TLBotInlineMessage.h in Headers */,
 				D01F94F51E5E3DB5002627A1 /* STPPaymentMethodsViewController+Private.h in Headers */,
 				D053B00D1F1509E700E2D58A /* NSArray_PageBlock.h in Headers */,
@@ -24251,9 +24568,11 @@
 				D0249BC01ABF5B470076ECBF /* GDGoogleDriveAccountInfo.h in Headers */,
 				D0249A851ABCA60D0076ECBF /* TGMediaPickerGalleryPhotoItem.h in Headers */,
 				68AA94841D365BA30089EB94 /* TGPaintUtils.h in Headers */,
+				7289533E1FA33081000E3FD4 /* SDisposable.h in Headers */,
 				D01BAA701ED47B5000295217 /* TGAdminLogConversationCompanion.h in Headers */,
 				D053B2771F1509EB00E2D58A /* TLRPCcontacts_clearContact.h in Headers */,
 				6844F8E11CCA723F00AB4ABE /* TGModernConversationInputAttachButton.h in Headers */,
+				7289536A1FA33081000E3FD4 /* STimer.h in Headers */,
 				68142BD91C6132C700532F6B /* TGMusicPlayerModeButton.h in Headers */,
 				D0EDACCF1C8C3D4C0021B80F /* TLUpdate$updateChannelTooLong.h in Headers */,
 				D053B2A91F1509EC00E2D58A /* TLRPCget_future_salts.h in Headers */,
@@ -24305,6 +24624,7 @@
 				D053B2991F1509EC00E2D58A /* TLRPCcontacts_sendRequest.h in Headers */,
 				68535EF01C4F8D82001821D9 /* TGWatchReplyCollectionItemView.h in Headers */,
 				D05DE80A1AB8847500293D10 /* TGModernConversationForwardInputPanel.h in Headers */,
+				728953471FA33081000E3FD4 /* SSignal+Accumulate.h in Headers */,
 				D061F2F51A9290420031BCBE /* TGCameraShutterButton.h in Headers */,
 				D061F2B21A9290250031BCBE /* PGCamera.h in Headers */,
 				68B6397D1BB2506F00205AC3 /* SSignal+Pipe.h in Headers */,
@@ -24313,6 +24633,7 @@
 				D053B2C31F1509EC00E2D58A /* TLRPClangpack_getDifference.h in Headers */,
 				683848AA1C9C822A00C9A4DA /* CBCoubAuthorVO.h in Headers */,
 				D053B0EF1F1509E800E2D58A /* TLhelp_Support.h in Headers */,
+				728953531FA33081000E3FD4 /* SSignal+Multicast.h in Headers */,
 				D053B1F71F1509EA00E2D58A /* TLRPCaccount_getAuthorizations.h in Headers */,
 				687750A31D6474D5008001D9 /* TGPhotoPaintFont.h in Headers */,
 				D0A4D7DD1C10DA9F00537E74 /* TGExternalGifSearchResultItem.h in Headers */,
@@ -24343,6 +24664,7 @@
 				683848D21C9C840D00C9A4DA /* CBChunkDownloadOperation.h in Headers */,
 				D03B1D7A1B6BA87400524EE9 /* TGSharedMediaLinkItem.h in Headers */,
 				D0D17EDC1CAEB13A00C4750B /* TGBotContextResultSendMessageGeo.h in Headers */,
+				728953611FA33081000E3FD4 /* SSignalKit.h in Headers */,
 				D0DB9B471E3B41EF0040CE3A /* TLpayments_PaymentForm$payments_paymentForm.h in Headers */,
 				D0249BED1ABF5B470076ECBF /* SSKeychain.h in Headers */,
 				D0FC071E1B1D060C008CC3BB /* TGUserInfoTextCollectionItemView.h in Headers */,
@@ -24354,6 +24676,7 @@
 				D053B3311F1509ED00E2D58A /* TLRPCmessages_receivedQueue.h in Headers */,
 				D053B0BF1F1509E800E2D58A /* TLDestroySessionsRes.h in Headers */,
 				6811AE2A1A35E3A0009309A3 /* TGPhotoCropControl.h in Headers */,
+				728953641FA33081000E3FD4 /* SThreadPool.h in Headers */,
 				681EACC41A28FFA800E7C40C /* PGContrastTool.h in Headers */,
 				D0DEE5061AA0A96000B04AAA /* TGApplicationFeatures.h in Headers */,
 				D08295491BACA83600240F69 /* TGChannelModeratorCollectionItem.h in Headers */,
@@ -24430,6 +24753,7 @@
 				D053B0231F1509E700E2D58A /* NSArray_SchemeType.h in Headers */,
 				68BBB24F1BED050F00237553 /* TGNotificationVenuePreviewView.h in Headers */,
 				D061F2DD1A9290420031BCBE /* TGCameraController.h in Headers */,
+				7289538A1FA33081000E3FD4 /* SwiftSignalKit.h in Headers */,
 				D053B01D1F1509E700E2D58A /* NSArray_RichText.h in Headers */,
 				D053B2AB1F1509EC00E2D58A /* TLRPChelp_getAppChangelog.h in Headers */,
 				D0FC07231B1D11F0008CC3BB /* TGCommandKeyboardView.h in Headers */,
@@ -24496,6 +24820,7 @@
 				D053B14F1F1509E900E2D58A /* TLMessageEntity.h in Headers */,
 				D07498341B98CB32005F30CC /* TGChannelInfoController.h in Headers */,
 				D09262C11D88434100742741 /* TGMultipleStickerPacksCell.h in Headers */,
+				7289535F1FA33081000E3FD4 /* SSignal.h in Headers */,
 				D0249AEB1ABCA7BE0076ECBF /* TGMediaPickerPhotoStripView.h in Headers */,
 				681EACCE1A28FFA800E7C40C /* PGPhotoToolComposer.h in Headers */,
 				D053B34D1F1509ED00E2D58A /* TLRPCmessages_sendEncryptedFile.h in Headers */,
@@ -24509,6 +24834,7 @@
 				D053B0691F1509E700E2D58A /* TLChannelAdminLogEventAction.h in Headers */,
 				D053B33B1F1509ED00E2D58A /* TLRPCmessages_requestEncryption.h in Headers */,
 				686BD3911D3F0BE800C4BD73 /* TGPhotoStickersView.h in Headers */,
+				7289534F1FA33081000E3FD4 /* SSignal+Mapping.h in Headers */,
 				688DBBD41BBEEB2F00F4ED33 /* TGMediaAssetsPhotoCell.h in Headers */,
 				D053B3091F1509ED00E2D58A /* TLRPCmessages_getMessagesViews.h in Headers */,
 				68195AAB1CF8B39800BDE3D5 /* TGMediaAssetsMomentsCollectionView.h in Headers */,
@@ -24554,6 +24880,7 @@
 				D0C735631C882D4A00BB3149 /* TGPinnedMessageTitlePanel.h in Headers */,
 				68E45AD11A2CD4F0001AFE63 /* TGPhotoEditorToolView.h in Headers */,
 				68B639881BB2506F00205AC3 /* SSubscriber.h in Headers */,
+				7289535B1FA33081000E3FD4 /* SSignal+Take.h in Headers */,
 				683849071C9C86A500C9A4DA /* NSDictionary+CBExtensions.h in Headers */,
 				D079ABBD1AF3AB3500076F59 /* TGStickerKeyboardView.h in Headers */,
 				D053B0ED1F1509E800E2D58A /* TLhelp_InviteText.h in Headers */,
@@ -24566,6 +24893,7 @@
 				D061F2F31A9290420031BCBE /* TGCameraPreviewView.h in Headers */,
 				68F7D3A61CADF0F600265D0A /* TGPreviewStickerItemView.h in Headers */,
 				D0FC07071B1CD3C1008CC3BB /* TGBotInfo.h in Headers */,
+				7289534B1FA33081000E3FD4 /* SSignal+Combine.h in Headers */,
 				D053B0A31F1509E800E2D58A /* TLcontacts_Link.h in Headers */,
 				D053B0E11F1509E800E2D58A /* TLGeoPlaceName.h in Headers */,
 				68B639651BB2506F00205AC3 /* SDisposableSet.h in Headers */,
@@ -24616,6 +24944,7 @@
 				D0C09C791A6E974D008369D7 /* TGSharedMediaImageItemView.h in Headers */,
 				D01F951F1E5E3DB5002627A1 /* UIView+Stripe_FirstResponder.h in Headers */,
 				D053B27B1F1509EB00E2D58A /* TLRPCcontacts_deleteContact.h in Headers */,
+				7289533C1FA33081000E3FD4 /* SBlockDisposable.h in Headers */,
 				D053B2791F1509EB00E2D58A /* TLRPCcontacts_declineRequest.h in Headers */,
 				D05C75061BEA69720086958E /* TGMigratedChannelConversationHeaderView.h in Headers */,
 				688DBB981BBEEA5B00F4ED33 /* TGMediaAsset.h in Headers */,
@@ -24646,9 +24975,11 @@
 				D09175751DB95B9A002C86F3 /* TGInstantPageController.h in Headers */,
 				D053B1EB1F1509EA00E2D58A /* TLRichText.h in Headers */,
 				D053B1ED1F1509EA00E2D58A /* TLRPCaccount_changePhone.h in Headers */,
+				728953491FA33081000E3FD4 /* SSignal+Catch.h in Headers */,
 				D01F94A71E5E3DB4002627A1 /* NSString+Stripe.h in Headers */,
 				D053B2D71F1509EC00E2D58A /* TLRPCmessages_deleteChatUser.h in Headers */,
 				D010C2D11EA8A7F500F41B96 /* TGCdnData.h in Headers */,
+				728953621FA33081000E3FD4 /* SSubscriber.h in Headers */,
 				D053B2B51F1509EC00E2D58A /* TLRPChelp_getInviteText.h in Headers */,
 				D053AFDB1F1509E600E2D58A /* NSArray_Dialog.h in Headers */,
 				68B63D801BB25B8D00205AC3 /* TGPeerNotificationSettingsSignals.h in Headers */,
@@ -24719,6 +25050,7 @@
 				D053AFEB1F1509E600E2D58A /* NSArray_InputChannel.h in Headers */,
 				D0FC35341B3CD6680041A938 /* TGGenericPeerPlaylistSignals.h in Headers */,
 				D0DCF5031AE924F900D5B7A1 /* TGGroupInvitationInfo.h in Headers */,
+				728953511FA33081000E3FD4 /* SSignal+Meta.h in Headers */,
 				D053B2131F1509EB00E2D58A /* TLRPCaccount_unregisterDevice.h in Headers */,
 				681EACED1A29355100E7C40C /* PGPhotoProcessPass.h in Headers */,
 				D0113A101C074F7000C30D67 /* TGMediaCacheIndexData.h in Headers */,
@@ -24745,6 +25077,7 @@
 				684853E01C1A221E00007D21 /* TGBingSearchResultItem+TGMediaItem.h in Headers */,
 				D0760B2D1E9D0C9100F1F3C4 /* SecretLayer66.h in Headers */,
 				D053B3511F1509ED00E2D58A /* TLRPCmessages_setEncryptedTyping.h in Headers */,
+				728953451FA33081000E3FD4 /* SQueue.h in Headers */,
 				D053B17B1F1509E900E2D58A /* TLmessages_PeerDialogs.h in Headers */,
 				D0630B741CCA189E00FC9AA4 /* TGModernConversationComplexMediaContextResultsAssociatedPanel.h in Headers */,
 				D053B0C31F1509E800E2D58A /* TLDisabledFeature.h in Headers */,
@@ -24844,6 +25177,7 @@
 				68BD8E291CA805E60088A4F9 /* TGPreviewMenu.h in Headers */,
 				D0EDE55C1D9ABA27005D4CE8 /* TGGameMediaAttachment.h in Headers */,
 				D053B26B1F1509EB00E2D58A /* TLRPCchannels_toggleInvites.h in Headers */,
+				7289536C1FA33081000E3FD4 /* SVariable.h in Headers */,
 				D053B2A71F1509EC00E2D58A /* TLRPCgeo_saveGeoPlace.h in Headers */,
 				D053B2CF1F1509EC00E2D58A /* TLRPCmessages_checkChatInvite.h in Headers */,
 				683848F81C9C85C000C9A4DA /* STKCoreFoundationDataSource.h in Headers */,
@@ -25105,6 +25439,7 @@
 				D053B1211F1509E900E2D58A /* TLInputPeerNotifySettings.h in Headers */,
 				681EAC1F1A239C3C00E7C40C /* TGPhotoEditorInterfaceAssets.h in Headers */,
 				D053B1771F1509E900E2D58A /* TLmessages_MessageEditData.h in Headers */,
+				728953411FA33081000E3FD4 /* SMetaDisposable.h in Headers */,
 				D053B2AF1F1509EC00E2D58A /* TLRPChelp_getAppUpdate.h in Headers */,
 				D0C09C861A6E974D008369D7 /* TGSharedMediaSectionHeaderView.h in Headers */,
 				D053B1531F1509E900E2D58A /* TLMessageGroup.h in Headers */,
@@ -25122,6 +25457,7 @@
 				D053B1511F1509E900E2D58A /* TLMessageFwdHeader.h in Headers */,
 				D044E1701B2B18BE001EE087 /* TGEmbedPreviewView.h in Headers */,
 				D053B1E31F1509EA00E2D58A /* TLReplyMarkup.h in Headers */,
+				728953661FA33081000E3FD4 /* SThreadPoolQueue.h in Headers */,
 				D020FBE61D99782C00F279AA /* TGTColor.h in Headers */,
 				6826401F1A403FC600415926 /* TGPhotoEditorBlurTypeButton.h in Headers */,
 				D074983C1B99FFC2005F30CC /* TLChat$channel.h in Headers */,
@@ -25209,6 +25545,7 @@
 				D0113A1D1C07787B00C30D67 /* TGCachePeerItem.h in Headers */,
 				D0249BE91ABF5B470076ECBF /* GDURLMetadata_Private.h in Headers */,
 				D0D17EC51CAEA8CE00C4750B /* TLRPCmessages_getInlineBotResults.h in Headers */,
+				7289536E1FA33081000E3FD4 /* DeallocatingObject.h in Headers */,
 				686BD39D1D3F952400C4BD73 /* TGPhotoStickersSectionHeader.h in Headers */,
 				D053B0DF1F1509E800E2D58A /* TLGame.h in Headers */,
 				D053B1971F1509EA00E2D58A /* TLMsgsStateInfo.h in Headers */,
@@ -25239,6 +25576,7 @@
 				D061F2A01A928FC70031BCBE /* PGPhotoBlurPass.h in Headers */,
 				D053B38D1F1509EE00E2D58A /* TLRPCphotos_uploadProfilePhoto.h in Headers */,
 				D053B3AF1F1509EE00E2D58A /* TLRPCupload_saveBigFilePart.h in Headers */,
+				728953681FA33081000E3FD4 /* SThreadPoolTask.h in Headers */,
 				D0514EF71DD1D0590008DF17 /* TLPhoneCall$phoneCallWaiting.h in Headers */,
 				D060B7991CF714760050BE9B /* TGPeerReadState.h in Headers */,
 				D035383C1AD3526600B0B33E /* TGLinkPreviewsContentProperty.h in Headers */,
@@ -25252,6 +25590,7 @@
 				6808EA8C1BADBC8400D8E50E /* TGPhotoEditorTintToolView.h in Headers */,
 				D053B3A11F1509EE00E2D58A /* TLRPCupdates_subscribe.h in Headers */,
 				68B639731BB2506F00205AC3 /* SSignal+Combine.h in Headers */,
+				728953431FA33081000E3FD4 /* SMulticastSignalManager.h in Headers */,
 				D019453F1A9F81E200FDA2C4 /* TGUpdatesWithPts.h in Headers */,
 				D001A5BE1C64B340003FB0E0 /* quaternion.hpp in Headers */,
 				D053B1251F1509E900E2D58A /* TLInputPhoto.h in Headers */,
@@ -25268,6 +25607,7 @@
 				D053B3AD1F1509EE00E2D58A /* TLRPCupload_reuploadCdnFile.h in Headers */,
 				68B0BF181A6E1E7900D13A4A /* PGPhotoCustomFilterPass.h in Headers */,
 				D01F94FF1E5E3DB5002627A1 /* STPPromise.h in Headers */,
+				7289535D1FA33081000E3FD4 /* SSignal+Timing.h in Headers */,
 				D053A3A01F15049E00E2D58A /* TLMessageMedia$messageMediaDocument.h in Headers */,
 				D0249BC81ABF5B470076ECBF /* GDGoogleDriveClientManager.h in Headers */,
 				D053B0891F1509E800E2D58A /* TLChatPhoto.h in Headers */,
@@ -25337,6 +25677,7 @@
 				D0CD17AF1CC13EDD007C5650 /* TGConversationScrollMessageStack.h in Headers */,
 				68B639691BB2506F00205AC3 /* SMulticastSignalManager.h in Headers */,
 				686A898E1C40162600E6976D /* TGMediaVideoConverter.h in Headers */,
+				7289533A1FA33081000E3FD4 /* SBag.h in Headers */,
 				68E45AC31A2CD23B001AFE63 /* TGPhotoEditorGenericToolView.h in Headers */,
 				D053B34F1F1509ED00E2D58A /* TLRPCmessages_sendEncryptedService.h in Headers */,
 				D0E1D33B1ECB6AE000FCEEF1 /* TGSearchChatMembersControllerView.h in Headers */,
@@ -25351,6 +25692,7 @@
 				D0249BEB1ABF5B470076ECBF /* GDURLUtilities.h in Headers */,
 				D09519D71D4A37BA008CE27F /* TLRPCaccount_sendConfirmPhoneCode.h in Headers */,
 				D053B2F91F1509EC00E2D58A /* TLRPCmessages_getDialogs.h in Headers */,
+				728953571FA33081000E3FD4 /* SSignal+SideEffects.h in Headers */,
 				D061F2F11A9290420031BCBE /* TGCameraPhotoPreviewController.h in Headers */,
 				D089E0641AC57A24009A744B /* TLUpdates+TG.h in Headers */,
 				D06F2B391AB1DFD900A4E214 /* TGReplyHeaderStickerModel.h in Headers */,
@@ -25447,6 +25789,7 @@
 				D01F94ED1E5E3DB5002627A1 /* STPPaymentConfiguration+Private.h in Headers */,
 				D053B0631F1509E700E2D58A /* TLCdnFileHash.h in Headers */,
 				D053B38F1F1509EE00E2D58A /* TLRPCping.h in Headers */,
+				728953381FA33081000E3FD4 /* SAtomic.h in Headers */,
 				6877709D1E04300000331194 /* TGCallSettingsController.h in Headers */,
 				6859733C1A773D1E0010FE5D /* PGPhotoEditorRawDataInput.h in Headers */,
 				D0A4D7FB1C11B1BD00537E74 /* TGWebpageSignals.h in Headers */,
@@ -25455,6 +25798,7 @@
 				68A84F671D420ABE00AC08AC /* TGPhotoPaintEntityView.h in Headers */,
 				0937A5B21E96890E0093D4DA /* TGVideoMessagePIPView.h in Headers */,
 				688DBBB41BBEEA9700F4ED33 /* TGMediaGroupsController.h in Headers */,
+				7289534D1FA33081000E3FD4 /* SSignal+Dispatch.h in Headers */,
 				68BBB2271BE9E0D800237553 /* TGBridgeMessageEntitiesAttachment+TGMessageEntitiesAttachment.h in Headers */,
 				681A16581BC8013200FFFAA9 /* TGAttachmentCameraCell.h in Headers */,
 				68F6377D1BAF42AE004FC5DB /* TGChannelIntroController.h in Headers */,
@@ -25647,6 +25991,7 @@
 				D0C80D751A965D7200D5DF8A /* TGTooltipWindow.h in Headers */,
 				D03E44C61AAF8B0600E72CAA /* TGReplyHeaderModel.h in Headers */,
 				681436141C2ED44400AE480E /* TGGiphySearchResultItem+TGMediaItem.h in Headers */,
+				7289533F1FA33081000E3FD4 /* SDisposableSet.h in Headers */,
 				D08968A41A796B2100784CE8 /* TGGlobalMessageSearchSignals.h in Headers */,
 				D0249A7D1ABCA5D90076ECBF /* TGMediaPickerGalleryPhotoItemView.h in Headers */,
 				68B63D7E1BB25B8D00205AC3 /* TGPasscodeSignals.h in Headers */,
@@ -25672,6 +26017,7 @@
 				D05EEA6C1CA551D900B7AE07 /* TGAudioWebpageFooterModel.h in Headers */,
 				D053AFF11F1509E600E2D58A /* NSArray_InputPeer.h in Headers */,
 				D0DCF5541AED32D800D5B7A1 /* TGLocationReverseGeocodeResult.h in Headers */,
+				728953901FA33082000E3FD4 /* SwiftSignalKitMac.h in Headers */,
 				D053AFFB1F1509E700E2D58A /* NSArray_KeyboardButton.h in Headers */,
 				D0F9E8781C5A6F4E00037222 /* TGRaiseToListenActivator.h in Headers */,
 				D053B0071F1509E700E2D58A /* NSArray_Message.h in Headers */,
@@ -25784,6 +26130,7 @@
 				D0249A471ABC5D740076ECBF /* TGTwoStepSetPaswordSignal.h in Headers */,
 				D053B0511F1509E700E2D58A /* TLauth_SentCode.h in Headers */,
 				D01659AA1DEDA799006DCE14 /* TLPhoneCall$phoneCallDiscarded.h in Headers */,
+				728953591FA33081000E3FD4 /* SSignal+Single.h in Headers */,
 				D053B3011F1509EC00E2D58A /* TLRPCmessages_getHistory.h in Headers */,
 				D061F2E31A9290420031BCBE /* TGCameraFlipButton.h in Headers */,
 				683849021C9C85C000C9A4DA /* STKQueueEntry.h in Headers */,
@@ -26008,7 +26355,6 @@
 			);
 			dependencies = (
 				68B22D071C11F32400EE8FF9 /* PBXTargetDependency */,
-				D0CB068A1ADC8DA6005E298F /* PBXTargetDependency */,
 			);
 			name = Share;
 			productName = Share;
@@ -26031,7 +26377,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D0CB068C1ADC8DC6005E298F /* PBXTargetDependency */,
 				D087633F1A83C1DE00632240 /* PBXTargetDependency */,
 				D061F3011A9290F80031BCBE /* PBXTargetDependency */,
 				68744C2D1BB1A9F800FE6542 /* PBXTargetDependency */,
@@ -26170,8 +26515,8 @@
 					ProjectRef = D0A3F2F4195CA9EB009E0ACD /* pop.xcodeproj */;
 				},
 				{
-					ProductGroup = D08763201A83963900632240 /* Products */;
-					ProjectRef = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
+					ProductGroup = 728952FA1FA3307F000E3FD4 /* Products */;
+					ProjectRef = 728952F91FA3307F000E3FD4 /* SSignalKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -26237,39 +26582,39 @@
 			remoteRef = 728952BE1FA3300F000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D04324E31DC26E2E00E0C528 /* SwiftSignalKitMac.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSignalKitMac.framework;
-			remoteRef = D04324E21DC26E2E00E0C528 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D044E1581B2A20DB001EE087 /* SwiftSignalKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSignalKit.framework;
-			remoteRef = D044E1571B2A20DB001EE087 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D044E15A1B2A20DB001EE087 /* SwiftSignalKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftSignalKitTests.xctest;
-			remoteRef = D044E1591B2A20DB001EE087 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D08763251A83963900632240 /* SSignalKit.framework */ = {
+		7289532E1FA33080000E3FD4 /* SSignalKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SSignalKit.framework;
-			remoteRef = D08763241A83963900632240 /* PBXContainerItemProxy */;
+			remoteRef = 7289532D1FA33080000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D08763271A83963900632240 /* SSignalKitTests.xctest */ = {
+		728953301FA33080000E3FD4 /* SSignalKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SSignalKitTests.xctest;
-			remoteRef = D08763261A83963900632240 /* PBXContainerItemProxy */;
+			remoteRef = 7289532F1FA33080000E3FD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		728953321FA33080000E3FD4 /* SwiftSignalKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSignalKit.framework;
+			remoteRef = 728953311FA33080000E3FD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		728953341FA33080000E3FD4 /* SwiftSignalKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftSignalKitTests.xctest;
+			remoteRef = 728953331FA33080000E3FD4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		728953361FA33080000E3FD4 /* SwiftSignalKitMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSignalKitMac.framework;
+			remoteRef = 728953351FA33080000E3FD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D0A3F2FC195CA9EC009E0ACD /* libpop.a */ = {
@@ -26379,6 +26724,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E352751E5E4127007E6EB8 /* stp_card_discover@2x.png in Resources */,
+				7289538E1FA33082000E3FD4 /* SwiftSignalKit copy-Info.plist in Resources */,
 				09361CCC1E725DCF007ED29C /* ModernBubbleIncomingPartialHighlighted@3x.png in Resources */,
 				D0D97D851B3B99F5003457CD /* MusicPlayerControlForward@2x.png in Resources */,
 				09F2A07F1EB3B55B00653F24 /* VideoMessageScrubberRightMask@3x.png in Resources */,
@@ -26425,6 +26771,7 @@
 				096DA4331F0D135B00ED5658 /* StickersTabArrow@2x.png in Resources */,
 				09ADB6A51EC23BF1009607A3 /* ConversationInstantPageButtonIconIncoming@3x.png in Resources */,
 				D0F9DD2A1BE917FE004E45B2 /* GroupInfoIconAddMember@3x.png in Resources */,
+				7289538F1FA33082000E3FD4 /* Info.plist in Resources */,
 				930F9BAD1891447800D3D7C1 /* ModernMessageSecretPhotoOverlayIcon@2x.png in Resources */,
 				D06989A91BA5D770000CBE06 /* MessageInlineViewCountIconIncoming@3x.png in Resources */,
 				0929AA661E9BD34300AA97C0 /* StickerPanelPopupMiddle@3x.png in Resources */,
@@ -26622,6 +26969,7 @@
 				9340FDC1166A96E0001CFB01 /* ClockMin@2x.png in Resources */,
 				934280C71847F39B004F1C2A /* SearchImagesButtonTop_Highlighted@2x.png in Resources */,
 				9303849118133F8F00CAC996 /* SearchBarClearIcon@2x.png in Resources */,
+				728953701FA33081000E3FD4 /* Info.plist in Resources */,
 				D0C6AEFE1A726F2A0046833D /* SharedMediaDocumentStatusDownload@2x.png in Resources */,
 				687770B21E04388E00331194 /* TabIconSettings@3x.png in Resources */,
 				D0249B071ABCAC280076ECBF /* VideoScrubberLeftArrow@2x.png in Resources */,
@@ -26647,6 +26995,7 @@
 				93064E021833C5EA0024C05A /* NavigationBackButton@2x.png in Resources */,
 				09B5B9B51E79A87A00195236 /* NavigationBackArrow@3x.png in Resources */,
 				68521C881BCE80A100B8A6FA /* MediaPhoto@2x.png in Resources */,
+				728953921FA33082000E3FD4 /* Info.plist in Resources */,
 				0958973D1E6C86660035E905 /* CallCancelIcon@3x.png in Resources */,
 				D0D670D6197EA36C0031B041 /* InfoPlist.strings in Resources */,
 				09690A2C1E730FE200B54F6E /* ClockMin@3x.png in Resources */,
@@ -26746,6 +27095,7 @@
 				9321E9F216A9B5C100F9D09C /* sent.caf in Resources */,
 				0927087E1E796C5F00D3C4F1 /* PaintStickersIcon@3x.png in Resources */,
 				68CEA6E91E089F110019EC79 /* CallStar@2x.png in Resources */,
+				728953371FA33081000E3FD4 /* Info.plist in Resources */,
 				D0590D8E19A78C9D0082FFC8 /* ModernMessageBroadcastIcon.png in Resources */,
 				D0BAF3FD193E8AC400A0093F /* ActionsWhiteIcon.png in Resources */,
 				9315E4DF186AFC52008DD74D /* Icon-40@2x.png in Resources */,
@@ -27050,6 +27400,7 @@
 				09F2A08D1EB8CEAF00653F24 /* InstantViewBrightnessMinIcon@3x.png in Resources */,
 				09E0996F1E85406C00253536 /* VideoMessageUnmutedIcon@2x.png in Resources */,
 				9341B0211851E89300D1195B /* ModernMenuCheck@2x.png in Resources */,
+				728953771FA33081000E3FD4 /* Info.plist in Resources */,
 				D0E352961E5E4127007E6EB8 /* stp_card_visa_template@2x.png in Resources */,
 				D0D95BCE19D438DC00047005 /* SecretPhotoCheckMask.png in Resources */,
 				D06989A81BA5D770000CBE06 /* MessageInlineViewCountIconOutgoing@2x.png in Resources */,
@@ -27690,6 +28041,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728953421FA33081000E3FD4 /* SMetaDisposable.m in Sources */,
 				D0876FE6196F4C33005740CE /* TGGenericPeerMediaGalleryModel.m in Sources */,
 				D03EEDE01B336737009E6974 /* TGDocumentAttributeAudio.m in Sources */,
 				D053B15A1F1509E900E2D58A /* TLmessages_AffectedHistory.mm in Sources */,
@@ -27731,6 +28083,7 @@
 				D026206518A938CF00A41CC8 /* TGTelegramNetworking.m in Sources */,
 				6895059C1DCC05E900D68920 /* TGCallSession.mm in Sources */,
 				D0FD8995156FCA3D00CC3714 /* TGMainTabsController.m in Sources */,
+				728953521FA33081000E3FD4 /* SSignal+Meta.m in Sources */,
 				68AA947B1D365BA30089EB94 /* TGPaintShader.m in Sources */,
 				D0A4D7CC1C10C8E200537E74 /* TGExternalGifSearchResult.m in Sources */,
 				D0A4D7EC1C10DF3500537E74 /* TGInternalGifSearchResultGalleryItemView.m in Sources */,
@@ -27762,6 +28115,7 @@
 				D06B21E61E49D0C900EE2F70 /* TLpayments_ValidatedRequestedInfo$payments_validatedRequestedInfo.mm in Sources */,
 				683848F51C9C85C000C9A4DA /* STKAudioPlayer.m in Sources */,
 				D052F0BB15757AB400D51E59 /* TGDialogListRequestBuilder.mm in Sources */,
+				7289534C1FA33081000E3FD4 /* SSignal+Combine.m in Sources */,
 				D01B0EB21A4343D1007ACE93 /* TGStickerPreviewImageDataSource.m in Sources */,
 				D09EE2B4193293E100980617 /* TGMediaStoreContext.m in Sources */,
 				D01F94D21E5E3DB4002627A1 /* STPCheckoutAPIVerification.m in Sources */,
@@ -27769,6 +28123,7 @@
 				D053B2681F1509EB00E2D58A /* TLRPCchannels_readHistory.mm in Sources */,
 				684853E91C1A225200007D21 /* UIImage+TGMediaEditableItem.m in Sources */,
 				D053B3DA1F1509EE00E2D58A /* TLUpdates.mm in Sources */,
+				728953751FA33081000E3FD4 /* Bag.swift in Sources */,
 				688DBBA71BBEEA5B00F4ED33 /* TGMediaAssetsLegacyLibrary.m in Sources */,
 				09ADB6BE1ECB40A4009607A3 /* TGExternalShareSignals.m in Sources */,
 				0981B0911E9574E600A55F6A /* TGRoundMessageRingView.m in Sources */,
@@ -27783,6 +28138,8 @@
 				68B63D551BB25B5200205AC3 /* TGBridgeServer.m in Sources */,
 				D01F95151E5E3DB5002627A1 /* StripeError.m in Sources */,
 				09AC57661F1909F900168216 /* TGSecretTimerPickerItemView.m in Sources */,
+				728953441FA33081000E3FD4 /* SMulticastSignalManager.m in Sources */,
+				728953501FA33081000E3FD4 /* SSignal+Mapping.m in Sources */,
 				D053B1161F1509E900E2D58A /* TLInputGeoPoint.mm in Sources */,
 				D02478D31E4CFA4B0083C3F3 /* TGAnimationUtils.m in Sources */,
 				D052F0E91576E35700D51E59 /* TGInterfaceManager.mm in Sources */,
@@ -27811,6 +28168,7 @@
 				D053B1121F1509E900E2D58A /* TLInputGame.mm in Sources */,
 				D053B06E1F1509E700E2D58A /* TLChannelAdminRights.mm in Sources */,
 				D05DE8061AB86FD900293D10 /* TGDownloadHistoryForNavigatingToMessageSignal.m in Sources */,
+				728953601FA33081000E3FD4 /* SSignal.m in Sources */,
 				D0983D6419CB9A4300CE5BB0 /* TGHacks.m in Sources */,
 				D0983C0B19CB93F200CE5BB0 /* TGWeakDelegate.m in Sources */,
 				93C52F651861E6E1008229A7 /* TGLoginProfileController.m in Sources */,
@@ -27892,6 +28250,7 @@
 				D08BC67B19AE385C007F126A /* TGUserAvatarGalleryItemView.m in Sources */,
 				689505AF1DCC5B2200D68920 /* Reachability.m in Sources */,
 				68D3E0921D4BB26B009EA7AE /* TGPhotoPaintScrollView.m in Sources */,
+				7289535E1FA33081000E3FD4 /* SSignal+Timing.m in Sources */,
 				68AE01471A5591AE00001B53 /* TGPhotoAvatarCropController.m in Sources */,
 				930808DB185A758900E62B42 /* TGUserInfoPhoneCollectionItemView.m in Sources */,
 				D0AD63DB159D21F80092BB50 /* TGUserNode.m in Sources */,
@@ -27953,12 +28312,14 @@
 				D053B2BE1F1509EC00E2D58A /* TLRPChelp_getTermsOfService.mm in Sources */,
 				D053B2421F1509EB00E2D58A /* TLRPCchannels_deleteMessages.mm in Sources */,
 				D096966815AD9B8E00D59E62 /* TGTimelineUploadPhotoRequestBuilder.m in Sources */,
+				728953891FA33081000E3FD4 /* Subscriber.swift in Sources */,
 				D01F94DB1E5E3DB5002627A1 /* STPDispatchFunctions.m in Sources */,
 				097CC6DA1ED34A47005BA466 /* TGSafariViewController.m in Sources */,
 				68B63D811BB25B8D00205AC3 /* TGPeerNotificationSettingsSignals.m in Sources */,
 				D0741C9119EBB9E30076369C /* TGSecretIncomingQueueActor.mm in Sources */,
 				D053B4161F17D62600E2D58A /* TLRPCaccount_unregisterDevice.mm in Sources */,
 				D053B2AC1F1509EC00E2D58A /* TLRPChelp_getAppChangelog.mm in Sources */,
+				7289537D1FA33081000E3FD4 /* Signal_Catch.swift in Sources */,
 				936DE1B01850E48400D90029 /* TGNotificationSettingsController.m in Sources */,
 				D0983D5219CB9A4300CE5BB0 /* TGDateUtils.mm in Sources */,
 				68AD393F1BF5DE7700826A83 /* TGNotificationForwardHeaderView.m in Sources */,
@@ -27983,6 +28344,7 @@
 				D053B3981F1509EE00E2D58A /* TLRPCrpc_drop_answer.mm in Sources */,
 				D053B1021F1509E800E2D58A /* TLInputChannel.mm in Sources */,
 				D053B1EA1F1509EA00E2D58A /* TLResPQ.mm in Sources */,
+				7289538C1FA33082000E3FD4 /* Timer.swift in Sources */,
 				D053B3661F1509ED00E2D58A /* TLRPCpayments_validateRequestedInfo.mm in Sources */,
 				9342137C18575C80003F000F /* TGGroupInfoSelectContactController.m in Sources */,
 				68B63C2A1BB258E300205AC3 /* TGBridgeChat.m in Sources */,
@@ -28032,6 +28394,7 @@
 				D0C09C711A6E974D008369D7 /* TGSharedMediaFileItem.m in Sources */,
 				684191B71C6268340091EF21 /* TGTransitionLayout.m in Sources */,
 				09D8EE881EA8458E00CC3AEB /* TGInstantPageChannelView.m in Sources */,
+				7289536F1FA33081000E3FD4 /* DeallocatingObject.m in Sources */,
 				D0983D5E19CB9A4300CE5BB0 /* TGExportContactFutureAction.m in Sources */,
 				D0983D6319CB9A4300CE5BB0 /* TGGradientLabel.m in Sources */,
 				683A8CA21BBD6EDC00CB2F34 /* TGAttachmentCarouselItemView.m in Sources */,
@@ -28116,6 +28479,7 @@
 				D060B79E1CF7573B0050BE9B /* TGDatabaseUpdateMessage.m in Sources */,
 				09C05D761E84F5A300ACD425 /* TGVideoCameraGLRenderer.m in Sources */,
 				D053B2DA1F1509EC00E2D58A /* TLRPCmessages_deleteHistory.mm in Sources */,
+				7289536B1FA33081000E3FD4 /* STimer.m in Sources */,
 				68B63CFC1BB2599600205AC3 /* TGBridgePeerNotificationSettings.m in Sources */,
 				D0DCF5691AED342300D5B7A1 /* TGVenueMessageViewModel.m in Sources */,
 				D0983DA219CB9A4300CE5BB0 /* TGTableView.m in Sources */,
@@ -28163,6 +28527,7 @@
 				939ECA59188EDEA4004ABAB7 /* TGModernGalleryZoomableItemView.m in Sources */,
 				D0DB9AE31E3B3E4D0040CE3A /* TLInvoice$invoice.mm in Sources */,
 				D00D03281E0D56E30000B005 /* TLMessageAction$messageActionPhoneCall.mm in Sources */,
+				728953541FA33081000E3FD4 /* SSignal+Multicast.m in Sources */,
 				D0983D8E19CB9A4300CE5BB0 /* TGModernButton.m in Sources */,
 				D00040B815BCD73A00AF9EBF /* TGUser+Telegraph.m in Sources */,
 				D0C6AF4A1A77F6890046833D /* TGSharedMediaAllFilesEmptyView.m in Sources */,
@@ -28255,6 +28620,7 @@
 				D0DA8C411ACF5EBD00606990 /* TGArticleWebpageFooterModel.m in Sources */,
 				93CF3B65181E7D1B003D8DE1 /* TGModernImageViewModel.m in Sources */,
 				684853DD1C1A220900007D21 /* AVURLAsset+TGMediaItem.m in Sources */,
+				728953461FA33081000E3FD4 /* SQueue.m in Sources */,
 				D0E1D33C1ECB6AE000FCEEF1 /* TGSearchChatMembersControllerView.m in Sources */,
 				939ECA55188EDC3F004ABAB7 /* TGModernGalleryImageItem.m in Sources */,
 				D053B0441F1509E700E2D58A /* TLaccount_TmpPassword.mm in Sources */,
@@ -28309,6 +28675,7 @@
 				D08BC65C19AD261F007F126A /* TGGroupAvatarGalleryModel.m in Sources */,
 				D066E99D18C6A88B00509410 /* info.c in Sources */,
 				681EACCF1A28FFA800E7C40C /* PGPhotoToolComposer.m in Sources */,
+				728953691FA33081000E3FD4 /* SThreadPoolTask.m in Sources */,
 				D0EA68A11A0064EB00D1F747 /* TGWebSearchGifItemView.m in Sources */,
 				68EE34881C922CF1002F5419 /* TGOpenInVideoItems.m in Sources */,
 				D0FC352C1B3CCC830041A938 /* TGMusicPlayerPlaylist.m in Sources */,
@@ -28342,6 +28709,7 @@
 				D0C1565B1D42315500D573C4 /* TGMeContactsCell.m in Sources */,
 				D07EA27F199E2532002ED76D /* TGModernMediaListImageItem.m in Sources */,
 				68B63CBB1BB2596200205AC3 /* TGBridgeVideoMediaAttachment+TGVideoMediaAttachment.m in Sources */,
+				728953721FA33081000E3FD4 /* SSignalBasicTests.m in Sources */,
 				D0BC8B8A1D4692750081A0AD /* TGLoginResetAccountProtectedController.m in Sources */,
 				6814360D1C2ED38600AE480E /* TGExternalGifSearchResult+TGMediaItem.m in Sources */,
 				934280D4184900A1004F1C2A /* TGModernCheckButtonView.m in Sources */,
@@ -28380,6 +28748,7 @@
 				D0249C0E1AC044C30076ECBF /* TGModernConversationHashtagsAssociatedPanel.m in Sources */,
 				D0CD17A11CC12374007C5650 /* TGConversationScrollState.m in Sources */,
 				D0FC07281B1D701F008CC3BB /* TGBotReplyMarkup.m in Sources */,
+				728953791FA33081000E3FD4 /* Multicast.swift in Sources */,
 				D053B18C1F1509EA00E2D58A /* TLMetaScheme.mm in Sources */,
 				D053B0A21F1509E800E2D58A /* TLcontacts_ImportedContacts.mm in Sources */,
 				D053B39A1F1509EE00E2D58A /* TLRPCset_client_DH_params.mm in Sources */,
@@ -28446,6 +28815,8 @@
 				D0983D9619CB9A4300CE5BB0 /* TGPopoverController.m in Sources */,
 				D0249B9B1ABF5B470076ECBF /* GDAbstractMetadataCache.m in Sources */,
 				D051B10B1B04EC24003AFD52 /* TGPhonebookRecord.m in Sources */,
+				728953401FA33081000E3FD4 /* SDisposableSet.m in Sources */,
+				728953851FA33081000E3FD4 /* Signal_SideEffects.swift in Sources */,
 				D010C2E01EA8B3C800F41B96 /* TGCdnFileData.m in Sources */,
 				D053B1A61F1509EA00E2D58A /* TLPageBlock.mm in Sources */,
 				686BD3BB1D41DED400C4BD73 /* TGPhotoTextEntityView.m in Sources */,
@@ -28473,6 +28844,7 @@
 				D053B11A1F1509E900E2D58A /* TLInputNotifyPeer.mm in Sources */,
 				D09262B61D870DD200742741 /* TGModernGalleryEmbeddedStickersHeaderView.m in Sources */,
 				D0249A911ABCA6510076ECBF /* TGVideoEditAdjustments.m in Sources */,
+				7289537E1FA33081000E3FD4 /* Signal_Combine.swift in Sources */,
 				D053B3B61F1509EE00E2D58A /* TLRPCusers_getUsers.mm in Sources */,
 				D0C5AAF41AB5B34A00F209D7 /* TLUpdates$modernUpdateShortMessage.mm in Sources */,
 				686ED3101BF3A748001F2F96 /* TGNotificationAudioPreviewView.m in Sources */,
@@ -28497,6 +28869,7 @@
 				D0DCF5041AE924F900D5B7A1 /* TGGroupInvitationInfo.m in Sources */,
 				93F3A0F618212E2B0005EB98 /* TGModernDateViewModel.m in Sources */,
 				D0F680121EE85A62000E5906 /* TGProxySetupController.m in Sources */,
+				728953631FA33081000E3FD4 /* SSubscriber.m in Sources */,
 				D053B3AC1F1509EE00E2D58A /* TLRPCupload_getWebFile.mm in Sources */,
 				D0DCF5511AED32D800D5B7A1 /* TGLocationCurrentLocationCell.m in Sources */,
 				D0A54B4119BA086500886B73 /* TGCacheController.m in Sources */,
@@ -28528,6 +28901,7 @@
 				93B07059161CAEF10054C20F /* TGLocationReverseGeocodeActor.mm in Sources */,
 				D0741C8B19E80C890076369C /* TGStoredOutgoingMessageFileInfo.m in Sources */,
 				D0F4BB5B199E3431007464D5 /* TGMediaListPhotoDataSource.m in Sources */,
+				728953581FA33081000E3FD4 /* SSignal+SideEffects.m in Sources */,
 				681EF77E1D12C79900B0DC38 /* TGModernGalleryNewVideoItemView.m in Sources */,
 				68B63D851BB25B8D00205AC3 /* TGSendAudioSignal.m in Sources */,
 				D0E0AB211DB6BDAD006060EE /* TGCallConnectionDescription.m in Sources */,
@@ -28576,6 +28950,7 @@
 				D09C751E19F1C8C100BF51BC /* TGUsernameCollectionItemView.m in Sources */,
 				D053B3741F1509ED00E2D58A /* TLRPCphone_receivedCall.mm in Sources */,
 				D053B06C1F1509E700E2D58A /* TLChannelAdminLogEventsFilter.mm in Sources */,
+				728953481FA33081000E3FD4 /* SSignal+Accumulate.m in Sources */,
 				D09C751119F1BBA800BF51BC /* TGUserInfoUsernameCollectionItem.m in Sources */,
 				D06B21FE1E49F94000EE2F70 /* TGPaymentCheckoutPriceItemView.m in Sources */,
 				D0249C171AC04D920076ECBF /* TGRecentHashtagsSignal.m in Sources */,
@@ -28585,6 +28960,7 @@
 				D073B9C2192AB02A00BBD071 /* TGTabletMainView.m in Sources */,
 				D01F95061E5E3DB5002627A1 /* STPRememberMeTermsView.m in Sources */,
 				68B63CB61BB2596200205AC3 /* TGBridgeLocationMediaAttachment+TGLocationMediaAttachment.m in Sources */,
+				728953841FA33081000E3FD4 /* Signal_Reduce.swift in Sources */,
 				D02D989B1DC8E6AA009E9465 /* TGItemCollectionGalleryVideoItemView.m in Sources */,
 				687750921D647053008001D9 /* TGPhotoPaintSparseView.m in Sources */,
 				6875C8591BBD28000061D94C /* TGMenuSheetView.m in Sources */,
@@ -28625,6 +29001,7 @@
 				D0F404D519AFD69700B8FB18 /* TGProfileUserAvatarGalleryItemView.m in Sources */,
 				D02EA22D1A375F85001A25CD /* TGSpringAnimation.m in Sources */,
 				D0983D3519CB9A4300CE5BB0 /* TGAcceptEncryptionFutureAction.m in Sources */,
+				7289538D1FA33082000E3FD4 /* ValuePipe.swift in Sources */,
 				D053B2981F1509EC00E2D58A /* TLRPCcontacts_search.mm in Sources */,
 				D09852251DD22BC700A2392C /* TGInstantPageFooterButtonView.m in Sources */,
 				9352A9DC181DBFF0002A1A1A /* TGModernConversationItem.m in Sources */,
@@ -28747,6 +29124,7 @@
 				D02384411D6F305A0094F9BB /* TLRPCmessages_getBotCallbackAnswer.mm in Sources */,
 				D053B1081F1509E800E2D58A /* TLInputDocument.mm in Sources */,
 				9308D82818453E9300FC395E /* TGLegacyCameraController.m in Sources */,
+				728953781FA33081000E3FD4 /* Lock.swift in Sources */,
 				D053B3621F1509ED00E2D58A /* TLRPCpayments_getPaymentReceipt.mm in Sources */,
 				D0983D4919CB9A4300CE5BB0 /* TGClearNotificationsFutureAction.m in Sources */,
 				D061F2A31A928FC70031BCBE /* PGPhotoGaussianBlurFilter.m in Sources */,
@@ -28767,11 +29145,14 @@
 				D053B1661F1509E900E2D58A /* TLmessages_Chat.mm in Sources */,
 				D08BC67119ADF245007F126A /* TGPeerAvatarThumbnailDataSource.m in Sources */,
 				09C05D851E84F7C500ACD425 /* TGVideoCameraGLView.m in Sources */,
+				7289535A1FA33081000E3FD4 /* SSignal+Single.m in Sources */,
 				0978FEE71E92D15100F76E38 /* TGInputAccessoryView.m in Sources */,
+				728953761FA33081000E3FD4 /* Disposable.swift in Sources */,
 				D06331A818BF8A2C0066E2FD /* TGOpusAudioRecorder.m in Sources */,
 				D02EA2321A376408001A25CD /* NSValue+JNWAdditions.m in Sources */,
 				681653B71CC0CDA6006D88C2 /* TGChatActionsContainerView.m in Sources */,
 				D053B0B41F1509E800E2D58A /* TLContactStatus.mm in Sources */,
+				728953881FA33081000E3FD4 /* Signal_Timing.swift in Sources */,
 				933B4A6B1641F1F1005FC985 /* TGTimelineAddItemsActor.m in Sources */,
 				D0C6AF141A76D3C60046833D /* TGDataItem.m in Sources */,
 				D053B0921F1509E800E2D58A /* TLContactBlocked.mm in Sources */,
@@ -28824,6 +29205,7 @@
 				D0CC0BCC1B9BB48500882D7A /* TGChannelAboutSetupController.m in Sources */,
 				D053B3F01F1509EF00E2D58A /* TLWallPaper.mm in Sources */,
 				D053B0481F1509E700E2D58A /* TLauth_Authorization.mm in Sources */,
+				728953391FA33081000E3FD4 /* SAtomic.m in Sources */,
 				686BD3B71D41DECA00C4BD73 /* TGPhotoStickerEntityView.m in Sources */,
 				D04B4D051EE9B12E00711AF6 /* TGChannelAdminLogEmptyView.m in Sources */,
 				D044CBBD192AA0F00001C986 /* TGRootController.m in Sources */,
@@ -28908,6 +29290,7 @@
 				68D167EA1DB684C200509032 /* TGCallView.m in Sources */,
 				D053B1621F1509E900E2D58A /* TLmessages_BotCallbackAnswer.mm in Sources */,
 				D053AFCA1F1509E600E2D58A /* NSArray_Contact.mm in Sources */,
+				7289537B1FA33081000E3FD4 /* Queue.swift in Sources */,
 				6836F8DE1BB2601200D3A77B /* TGBridgeReplyMessageMediaAttachment.m in Sources */,
 				D053B2E21F1509EC00E2D58A /* TLRPCmessages_editChatPhoto.mm in Sources */,
 				687896601A5E8788002310B2 /* TGPhotoEditorAnimation.m in Sources */,
@@ -28915,6 +29298,7 @@
 				D04324E71DC276EE00E0C528 /* PhotoResources.m in Sources */,
 				D08BC67819AE37DA007F126A /* TGUserAvatarGalleryModel.m in Sources */,
 				683848951C9C814600C9A4DA /* CBPlayerView.m in Sources */,
+				728953861FA33081000E3FD4 /* Signal_Single.swift in Sources */,
 				D0983D3A19CB9A4300CE5BB0 /* TGAlertView.m in Sources */,
 				D010C31A1EA941F800F41B96 /* TGLocalization.m in Sources */,
 				D00542FC1BC7551B00456715 /* TGShareSheetSharePeersLayout.m in Sources */,
@@ -28978,6 +29362,7 @@
 				D01B0EA91A432BB7007ACE93 /* TGStickerAssociatedInputPanel.m in Sources */,
 				D0DEE5941AA9D63900B04AAA /* TGModenConcersationReplyAssociatedPanel.m in Sources */,
 				936DE1971850C62200D90029 /* TGSwitchCollectionItem.m in Sources */,
+				728953671FA33081000E3FD4 /* SThreadPoolQueue.m in Sources */,
 				D03FECDE19CC72C2004866D6 /* TGSecretPeerMediaGalleryImageItem.m in Sources */,
 				D0983D4819CB9A4300CE5BB0 /* TGCircularProgressView.m in Sources */,
 				93E05B38165CF0FE004E31C5 /* TGPhotoGridCell.m in Sources */,
@@ -28986,9 +29371,11 @@
 				93D1D7691846439B00947655 /* TGPreparedRemoteVideoMessage.m in Sources */,
 				D053B14C1F1509E900E2D58A /* TLMessage.mm in Sources */,
 				D053B1861F1509E900E2D58A /* TLmessages_StickerSet.mm in Sources */,
+				7289537C1FA33081000E3FD4 /* Signal.swift in Sources */,
 				D053B0801F1509E700E2D58A /* TLChatFull.mm in Sources */,
 				D0D541CD1B864735005F676C /* TGChannelManagementSignals.m in Sources */,
 				D07B66E61DD0F3110090A31F /* TGTransformImageViewModel.m in Sources */,
+				728953871FA33081000E3FD4 /* Signal_Take.swift in Sources */,
 				D061F2BD1A9290250031BCBE /* PGCameraVolumeButtonHandler.m in Sources */,
 				D02CD02E19490FA5007700A2 /* TGWallpaperItemsBackgroundDecorationView.m in Sources */,
 				D0C80D421A95624600D5DF8A /* sqlite3.c in Sources */,
@@ -29084,6 +29471,7 @@
 				9340FDC6166BD4A7001CFB01 /* TGExtendedChatDataRequestActor.m in Sources */,
 				68F6377E1BAF42AE004FC5DB /* TGChannelIntroController.m in Sources */,
 				D0CD11F61CCFDB3B000DE7BC /* EMImage.m in Sources */,
+				728953801FA33081000E3FD4 /* Signal_Mapping.swift in Sources */,
 				D02CAE9C19D8BE4B00FF4B95 /* FLAnimatedImage.m in Sources */,
 				D053B3201F1509ED00E2D58A /* TLRPCmessages_hideReportSpam.mm in Sources */,
 				D089E06E1AC57E2F009A744B /* TGAuthSession.m in Sources */,
@@ -29145,6 +29533,7 @@
 				D0EA69A31A0A44D500D1F747 /* TGTextViewCollectionItem.m in Sources */,
 				D0973D611BE2569400B61B7D /* TGAcceleratedVideoView.m in Sources */,
 				D01F95101E5E3DB5002627A1 /* STPToken.m in Sources */,
+				7289534A1FA33081000E3FD4 /* SSignal+Catch.m in Sources */,
 				93A2B0201676557C005A48C7 /* TGLoginPhoneController.m in Sources */,
 				D0249A611ABCA5500076ECBF /* TGFileUtils.m in Sources */,
 				D053B1BE1F1509EA00E2D58A /* TLphone_DhConfig.mm in Sources */,
@@ -29344,6 +29733,7 @@
 				9321E9DC16A9289600F9D09C /* TGCommentMenuItemView.m in Sources */,
 				6886255F1C98A9BA00F7E860 /* TGEmbedPlayerScrubber.m in Sources */,
 				D053B1441F1509E900E2D58A /* TLLangPackDifference.mm in Sources */,
+				7289535C1FA33081000E3FD4 /* SSignal+Take.m in Sources */,
 				092B124E1EEB1689003BFC52 /* TGShareTargetController.m in Sources */,
 				D053B3561F1509ED00E2D58A /* TLRPCmessages_startBot.mm in Sources */,
 				D03E44BF1AAF66C500E72CAA /* TGSignalImageViewModel.m in Sources */,
@@ -29412,6 +29802,7 @@
 				D0083AE71BCD85B600CA1D77 /* TGAttachmentSheetItemView.m in Sources */,
 				D0983D6219CB9A4300CE5BB0 /* TGFutureAction.m in Sources */,
 				D053B0EA1F1509E800E2D58A /* TLhelp_AppPrefs.mm in Sources */,
+				728953951FA33082000E3FD4 /* SwiftSignalKitFunctionsTests.swift in Sources */,
 				D0249BE81ABF5B470076ECBF /* GDURLMetadata.m in Sources */,
 				D089E0651AC57A24009A744B /* TLUpdates+TG.m in Sources */,
 				D0E3C2911D54DD950073C750 /* TGRevokeLinkConversationItemView.m in Sources */,
@@ -29429,6 +29820,7 @@
 				930F9BC21891B7CB00D3D7C1 /* TGMessageImageView.m in Sources */,
 				D01D7D6719DEE85900955BDE /* TGModernConversationTitleActivityIndicator.m in Sources */,
 				93C1AF6216C4641A00710640 /* TGSynchronizeContactsActor.mm in Sources */,
+				728953821FA33081000E3FD4 /* Signal_Merge.swift in Sources */,
 				9352A9EA181DC161002A1A1A /* TGModernViewStorage.m in Sources */,
 				D0EFBED71A1A88F700FF33C3 /* TGCountryAndPhoneCollectionItem.m in Sources */,
 				938F548C16DD21DA009EBD6C /* TGButtonsMenuItem.m in Sources */,
@@ -29486,6 +29878,7 @@
 				D053B0CC1F1509E800E2D58A /* TLEmbedPostMedia.mm in Sources */,
 				D0CC0BD41B9BB92B00882D7A /* TGCollectionMultilineInputItemView.m in Sources */,
 				D053AFF01F1509E600E2D58A /* NSArray_InputDocument.mm in Sources */,
+				728953561FA33081000E3FD4 /* SSignal+Pipe.m in Sources */,
 				68535F0C1C57EDC6001821D9 /* TGKeyCommandController.m in Sources */,
 				D0CF869219ED6431005BE1B1 /* TGPickerSheet.m in Sources */,
 				D03B93AD18F6EB5F00073D51 /* TGPhotoThumbnailDataSource.m in Sources */,
@@ -29544,6 +29937,7 @@
 				934213741857394B003F000F /* TGGroupInfoUserCollectionItem.m in Sources */,
 				D0EA69141A079ED800D1F747 /* TGWebSearchInternalImageResult.m in Sources */,
 				D013FAAD1CDBD65800EF175C /* TGModernConversationEditingMessageInputPanel.m in Sources */,
+				7289536D1FA33081000E3FD4 /* SVariable.m in Sources */,
 				D09519CA1D4A2F93008CE27F /* TGResetAccountState.m in Sources */,
 				684019101E12A68E007735E4 /* TGEmbedVKPlayerView.m in Sources */,
 				D01F94FA1E5E3DB5002627A1 /* STPPaymentResult.m in Sources */,
@@ -29552,6 +29946,7 @@
 				68B657351C314FBE008DFFE2 /* TGPreparedAssetVideoMessage.m in Sources */,
 				68B63D7D1BB25B8D00205AC3 /* TGMediaSignals.m in Sources */,
 				6859733D1A773D1E0010FE5D /* PGPhotoEditorRawDataInput.m in Sources */,
+				728953811FA33081000E3FD4 /* Signal_Materialize.swift in Sources */,
 				688DBBD51BBEEB2F00F4ED33 /* TGMediaAssetsPhotoCell.m in Sources */,
 				0965EC521E4E26A200B4FB31 /* TGPhotoQualityController.m in Sources */,
 				68BCCD441D1D30D8004CD9B8 /* TGGifGalleryModel.m in Sources */,
@@ -29573,6 +29968,7 @@
 				68B81D4F1A5A7A8600DF764C /* PGPhotoEditorPicture.m in Sources */,
 				68EED5AA1BC40391009F1D57 /* TGNotificationContentView.m in Sources */,
 				D053B1F21F1509EA00E2D58A /* TLRPCaccount_confirmPhone.mm in Sources */,
+				728953831FA33081000E3FD4 /* Signal_Meta.swift in Sources */,
 				6875C8651BBD28FF0061D94C /* TGMenuSheetButtonItemView.m in Sources */,
 				D035383D1AD3526600B0B33E /* TGLinkPreviewsContentProperty.m in Sources */,
 				D053B0FE1F1509E800E2D58A /* TLInputBotInlineMessage.mm in Sources */,
@@ -29587,6 +29983,7 @@
 				D053B2B21F1509EC00E2D58A /* TLRPChelp_getCdnConfig.mm in Sources */,
 				930808E7185A7ECD00E62B42 /* TGUserInfoButtonCollectionItemView.m in Sources */,
 				D053B1721F1509E900E2D58A /* TLmessages_FoundGifs.mm in Sources */,
+				7289534E1FA33081000E3FD4 /* SSignal+Dispatch.m in Sources */,
 				D07EA28A199E272C002ED76D /* TGModernMediaListVideoItemView.m in Sources */,
 				D0983D8F19CB9A4300CE5BB0 /* TGModernToolbarButton.m in Sources */,
 				D0113A1E1C07787B00C30D67 /* TGCachePeerItem.m in Sources */,
@@ -29624,6 +30021,7 @@
 				D04325001DC3A8E200E0C528 /* TGItemCollectionGalleryItem.m in Sources */,
 				D084D47A1A3A624A00EA8120 /* TGAttachmentSheetScrollView.m in Sources */,
 				D053B23A1F1509EB00E2D58A /* TLRPCauth_signUp.mm in Sources */,
+				728953931FA33082000E3FD4 /* PerformanceTests.swift in Sources */,
 				D0C80DE71A9BB61B00D5DF8A /* TGPasscodePinDotView.m in Sources */,
 				D061F2EA1A9290420031BCBE /* TGCameraMainPhoneView.m in Sources */,
 				D0CBA9321DDDF8520009D717 /* TLUpdate$updateServiceNotification.mm in Sources */,
@@ -29637,6 +30035,7 @@
 				D06B21F21E49F8E700EE2F70 /* TGPaymentCheckoutHeaderItem.m in Sources */,
 				D053B3281F1509ED00E2D58A /* TLRPCmessages_readEncryptedHistory.mm in Sources */,
 				D0D43CE91BA0A4AE00F6C78F /* TLChatFull$channelFull.mm in Sources */,
+				728953741FA33081000E3FD4 /* Atomic.swift in Sources */,
 				D0D17EC21CAD6F0E00C4750B /* TLmessages_BotCallbackAnswer$botCallbackAnswer.mm in Sources */,
 				6808EA8D1BADBC8400D8E50E /* TGPhotoEditorTintToolView.m in Sources */,
 				D01526D51900548200656312 /* TGWorker.m in Sources */,
@@ -29741,11 +30140,13 @@
 				688625341C9730A000F7E860 /* TGEmbedPlayerControls.m in Sources */,
 				D09C751B19F1C88A00BF51BC /* TGUsernameCollectionItem.m in Sources */,
 				D051B0101AF99E31003AFD52 /* TGStickerPackPreviewView.m in Sources */,
+				728953911FA33082000E3FD4 /* DeallocatingObject.swift in Sources */,
 				D0C156751D424F3E00D573C4 /* TGArchivedStickerPacksAlertView.m in Sources */,
 				D053B1401F1509E900E2D58A /* TLKeyboardButtonRow.mm in Sources */,
 				D0C6AF5A1A7816140046833D /* TGSharedMediaFilesEmptyView.m in Sources */,
 				D053B3261F1509ED00E2D58A /* TLRPCmessages_migrateChat.mm in Sources */,
 				93E015CE175DE8E600BEFDB2 /* TGImageSearchActor.m in Sources */,
+				7289533B1FA33081000E3FD4 /* SBag.m in Sources */,
 				D053B3841F1509EE00E2D58A /* TLRPCphotos_getWall.mm in Sources */,
 				93064E0C1834F2C20024C05A /* TGPreparedMessage.m in Sources */,
 				6869365C1D5CC34200411978 /* TGPaintNeonBrush.m in Sources */,
@@ -29812,6 +30213,7 @@
 				D0F905131C32DBAE0026ECAE /* TGBotContextResultSendMessageText.m in Sources */,
 				D03E44E31AB0D77300E72CAA /* TGRemoteHttpLocationSignal.m in Sources */,
 				D053B1C81F1509EA00E2D58A /* TLPhoneCallProtocol.mm in Sources */,
+				728953731FA33081000E3FD4 /* SSignalPerformanceTests.m in Sources */,
 				D053B1CE1F1509EA00E2D58A /* TLphotos_Photo.mm in Sources */,
 				D0C80D8C1A97A58E00D5DF8A /* TGAccessRequiredAlertView.m in Sources */,
 				D0CC0BD01B9BB91B00882D7A /* TGCollectionMultilineInputItem.m in Sources */,
@@ -30010,6 +30412,7 @@
 				D01659AB1DEDA799006DCE14 /* TLPhoneCall$phoneCallDiscarded.mm in Sources */,
 				D0F2E1151E3B7C5200759C97 /* TGPaymentPasswordAlert.m in Sources */,
 				D0983D8219CB9A4300CE5BB0 /* TGListsTableView.m in Sources */,
+				7289537A1FA33081000E3FD4 /* Promise.swift in Sources */,
 				D053B2E41F1509EC00E2D58A /* TLRPCmessages_editChatTitle.mm in Sources */,
 				688DBBD31BBEEB2F00F4ED33 /* TGMediaPickerLayoutMetrics.m in Sources */,
 				938431C918560693000CD961 /* TGCustomImageWallpaperInfo.m in Sources */,
@@ -30028,6 +30431,7 @@
 				6811AE681A389CC9009309A3 /* GPUImageFilter.m in Sources */,
 				D053B07A1F1509E700E2D58A /* TLchannels_ChannelParticipant.mm in Sources */,
 				D053B2F01F1509EC00E2D58A /* TLRPCmessages_getArchivedStickers.mm in Sources */,
+				728953941FA33082000E3FD4 /* SwiftSignalKitBasicTests.swift in Sources */,
 				932E0116184CE61C0001D109 /* TGModernConversationPrivateTitlePanel.m in Sources */,
 				D053B32C1F1509ED00E2D58A /* TLRPCmessages_readHistory.mm in Sources */,
 				D01F95181E5E3DB5002627A1 /* UINavigationBar+Stripe_Theme.m in Sources */,
@@ -30052,6 +30456,7 @@
 				D053B0981F1509E800E2D58A /* TLContactRequest.mm in Sources */,
 				0916CCBC1E8EA6E100576568 /* TGSharedMediaRoundMessageItem.m in Sources */,
 				D0983DB919CB9A4300CE5BB0 /* UIScrollView+TGHacks.m in Sources */,
+				728953711FA33081000E3FD4 /* SDisposableTests.m in Sources */,
 				D01BAA711ED47B5000295217 /* TGAdminLogConversationCompanion.m in Sources */,
 				93992D8618296F6200F29746 /* TGVideoMessageViewModel.m in Sources */,
 				D0FC071B1B1D05FF008CC3BB /* TGUserInfoTextCollectionItem.m in Sources */,
@@ -30110,6 +30515,7 @@
 				936219F91864B0EB00C52870 /* TGDownloadMessagesActor.m in Sources */,
 				D09153A41A6D6D5A004F3995 /* TGListThumbnailSignals.m in Sources */,
 				D0C5C3D11ACACC3B00F32FC6 /* TGPasswordRecoveryController.m in Sources */,
+				728953651FA33081000E3FD4 /* SThreadPool.m in Sources */,
 				93CF3B74181EBE68003D8DE1 /* TGModernConversationViewLayout.mm in Sources */,
 				D0CFE4711A35AB8300839901 /* xxhash.c in Sources */,
 				D069B1A11B3D63CA0034C967 /* TGRemoteControlsManager.m in Sources */,
@@ -30130,6 +30536,7 @@
 				683848FD1C9C85C000C9A4DA /* STKDataSourceWrapper.m in Sources */,
 				D061F2F61A9290420031BCBE /* TGCameraShutterButton.m in Sources */,
 				D053B10E1F1509E900E2D58A /* TLInputFile.mm in Sources */,
+				7289538B1FA33082000E3FD4 /* ThreadPool.swift in Sources */,
 				D0249C041ABF5B6F0076ECBF /* TGGoogleDriveItemCell.m in Sources */,
 				D09519D81D4A37BA008CE27F /* TLRPCaccount_sendConfirmPhoneCode.m in Sources */,
 				D0EDACD91C8CB1850021B80F /* TGUserAboutSetupController.m in Sources */,
@@ -30168,6 +30575,7 @@
 				68AA947F1D365BA30089EB94 /* TGPaintSlice.m in Sources */,
 				D053B1601F1509E900E2D58A /* TLmessages_ArchivedStickers.mm in Sources */,
 				D0983D9B19CB9A4300CE5BB0 /* TGRTLScreenEdgePanGestureRecognizer.m in Sources */,
+				7289537F1FA33081000E3FD4 /* Signal_Dispatch.swift in Sources */,
 				D053B34A1F1509ED00E2D58A /* TLRPCmessages_sendBroadcast.mm in Sources */,
 				9303843F1811AC0200CAC996 /* TGWallpapersCollectionItemView.m in Sources */,
 				68B63CF21BB2599600205AC3 /* TGBridgeImageInfo+TGImageInfo.m in Sources */,
@@ -30233,6 +30641,7 @@
 				68535EE31C4F8D72001821D9 /* TGWatchReplyCollectionItem.m in Sources */,
 				93064E13183552B10024C05A /* TGModernSendMessageActor.m in Sources */,
 				687750A41D6474D5008001D9 /* TGPhotoPaintFont.m in Sources */,
+				7289533D1FA33081000E3FD4 /* SBlockDisposable.m in Sources */,
 				D0249BC71ABF5B470076ECBF /* GDGoogleDriveClient.m in Sources */,
 				D0249AE81ABCA7BE0076ECBF /* TGMediaPickerPhotoCounterButton.m in Sources */,
 				D00BF0511CF89A4500170DB1 /* TLDraftMessage$draftMessage.mm in Sources */,
@@ -30291,16 +30700,6 @@
 			isa = PBXTargetDependency;
 			name = pop;
 			targetProxy = D087633E1A83C1DE00632240 /* PBXContainerItemProxy */;
-		};
-		D0CB068A1ADC8DA6005E298F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSignalKit;
-			targetProxy = D0CB06891ADC8DA6005E298F /* PBXContainerItemProxy */;
-		};
-		D0CB068C1ADC8DC6005E298F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSignalKit;
-			targetProxy = D0CB068B1ADC8DC6005E298F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
